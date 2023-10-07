@@ -1,0 +1,1967 @@
+Oct 06 18:34:56 NUMSTAGES = 8
+Oct 06 18:34:56 BATCHSIZE = 500000000
+Oct 06 18:34:56 MERGELIMIT = 4000000000
+Oct 06 18:34:56 merge limits:   0:4000000000 1:4000000000 2:4000000000 3:4000000000 4:4000000000 5:4000000000 6:4000000000 7:4000000000
+Oct 06 18:34:56 Sizes:
+Oct 06 18:34:56 Generating 500000000 fresh hashes
+Oct 06 18:35:27   [0] Status: inbox = 500000000 big = 0 found = 0
+Oct 06 18:35:27   [0] Building negation
+Oct 06 18:36:07   [0] Sort inbox
+Oct 06 18:38:38   [0] Sort inboxNegs
+Oct 06 18:40:28   [0] Moving inbox to big
+Oct 06 18:40:28   [0] Finding matches
+Oct 06 18:40:57   [0] newly found: 55990586
+Oct 06 18:41:03 ------------------
+Oct 06 18:41:03 Sizes: 0:500000000
+Oct 06 18:41:03     [1] Status: inbox = 55990586 big = 0 found = 0
+Oct 06 18:41:03     [1] Building negation
+Oct 06 18:41:05     [1] Sort inbox
+Oct 06 18:41:09     [1] Sort inboxNegs
+Oct 06 18:41:14     [1] Moving inbox to big
+Oct 06 18:41:14     [1] Finding matches
+Oct 06 18:41:16     [1] newly found: 377137
+Oct 06 18:41:17 ------------------
+Oct 06 18:41:17 Sizes: 0:500000000 1:55990586
+Oct 06 18:41:17       [2] Status: inbox = 377137 big = 0 found = 0
+Oct 06 18:41:17       [2] Building negation
+Oct 06 18:41:17       [2] Sort inbox
+Oct 06 18:41:17       [2] Sort inboxNegs
+Oct 06 18:41:17       [2] Moving inbox to big
+Oct 06 18:41:17       [2] Finding matches
+Oct 06 18:41:17       [2] newly found: 0
+Oct 06 18:41:17 ------------------
+Oct 06 18:41:17 Sizes: 0:500000000 1:55990586 2:377137
+Oct 06 18:41:17 Generating 500000000 fresh hashes
+Oct 06 18:41:51   [0] Status: inbox = 500000000 big = 500000000 found = 55990586
+Oct 06 18:41:51   [0] Building negation
+Oct 06 18:42:33   [0] Sort inbox
+Oct 06 18:44:57   [0] Sort inboxNegs
+Oct 06 18:46:44   [0] Merging into big
+Oct 06 18:48:54   [0] Finding matches
+Oct 06 18:50:02   [0] newly found: 109952247
+Oct 06 18:50:07 ------------------
+Oct 06 18:50:07 Sizes: 0:1000000000 1:55990586 2:377137
+Oct 06 18:50:07     [1] Status: inbox = 109952247 big = 55990586 found = 377137
+Oct 06 18:50:07     [1] Building negation
+Oct 06 18:50:10     [1] Sort inbox
+Oct 06 18:50:20     [1] Sort inboxNegs
+Oct 06 18:50:30     [1] Merging into big
+Oct 06 18:50:48     [1] Finding matches
+Oct 06 18:50:58     [1] newly found: 3043992
+Oct 06 18:51:01 ------------------
+Oct 06 18:51:01 Sizes: 0:1000000000 1:165942833 2:377137
+Oct 06 18:51:01       [2] Status: inbox = 3043992 big = 377137 found = 0
+Oct 06 18:51:01       [2] Building negation
+Oct 06 18:51:01       [2] Sort inbox
+Oct 06 18:51:01       [2] Sort inboxNegs
+Oct 06 18:51:02       [2] Merging into big
+Oct 06 18:51:02       [2] Finding matches
+Oct 06 18:51:02       [2] newly found: 1000
+Oct 06 18:51:02 ------------------
+Oct 06 18:51:02 Sizes: 0:1000000000 1:165942833 2:3421129
+Oct 06 18:51:02         [3] Status: inbox = 1000 big = 0 found = 0
+Oct 06 18:51:02         [3] Building negation
+Oct 06 18:51:02         [3] Sort inbox
+Oct 06 18:51:02         [3] Sort inboxNegs
+Oct 06 18:51:02         [3] Moving inbox to big
+Oct 06 18:51:02         [3] Finding matches
+Oct 06 18:51:02         [3] newly found: 0
+Oct 06 18:51:02 ------------------
+Oct 06 18:51:02 Sizes: 0:1000000000 1:165942833 2:3421129 3:1000
+Oct 06 18:51:02 Generating 500000000 fresh hashes
+Oct 06 18:51:36   [0] Status: inbox = 500000000 big = 1000000000 found = 165942833
+Oct 06 18:51:36   [0] Building negation
+Oct 06 18:52:19   [0] Sort inbox
+Oct 06 18:54:44   [0] Sort inboxNegs
+Oct 06 18:56:44   [0] Merging into big
+Oct 06 18:59:51   [0] Finding matches
+Oct 06 19:01:26   [0] newly found: 161979921
+Oct 06 19:01:31 ------------------
+Oct 06 19:01:31 Sizes: 0:1500000000 1:165942833 2:3421129 3:1000
+Oct 06 19:01:31     [1] Status: inbox = 161979921 big = 165942833 found = 3421129
+Oct 06 19:01:31     [1] Building negation
+Oct 06 19:01:35     [1] Sort inbox
+Oct 06 19:02:03     [1] Sort inboxNegs
+Oct 06 19:02:25     [1] Merging into big
+Oct 06 19:03:08     [1] Finding matches
+Oct 06 19:03:24     [1] newly found: 9793678
+Oct 06 19:03:28 ------------------
+Oct 06 19:03:28 Sizes: 0:1500000000 1:327922754 2:3421129 3:1000
+Oct 06 19:03:28       [2] Status: inbox = 9793678 big = 3421129 found = 1000
+Oct 06 19:03:28       [2] Building negation
+Oct 06 19:03:28       [2] Sort inbox
+Oct 06 19:03:29       [2] Sort inboxNegs
+Oct 06 19:03:29       [2] Merging into big
+Oct 06 19:03:31       [2] Finding matches
+Oct 06 19:03:31       [2] newly found: 16857
+Oct 06 19:03:32 ------------------
+Oct 06 19:03:32 Sizes: 0:1500000000 1:327922754 2:13214807 3:1000
+Oct 06 19:03:32         [3] Status: inbox = 16857 big = 1000 found = 0
+Oct 06 19:03:32         [3] Building negation
+Oct 06 19:03:32         [3] Sort inbox
+Oct 06 19:03:32         [3] Sort inboxNegs
+Oct 06 19:03:32         [3] Merging into big
+Oct 06 19:03:32         [3] Finding matches
+Oct 06 19:03:32         [3] newly found: 0
+Oct 06 19:03:32 ------------------
+Oct 06 19:03:32 Sizes: 0:1500000000 1:327922754 2:13214807 3:17857
+Oct 06 19:03:32 Generating 500000000 fresh hashes
+Oct 06 19:04:04   [0] Status: inbox = 500000000 big = 1500000000 found = 327922754
+Oct 06 19:04:04   [0] Building negation
+Oct 06 19:04:46   [0] Sort inbox
+Oct 06 19:07:25   [0] Sort inboxNegs
+Oct 06 19:09:36   [0] Merging into big
+Oct 06 19:13:49   [0] Finding matches
+Oct 06 19:15:50   [0] newly found: 212267370
+Oct 06 19:15:53 ------------------
+Oct 06 19:15:53 Sizes: 0:2000000000 1:327922754 2:13214807 3:17857
+Oct 06 19:15:53     [1] Status: inbox = 212267370 big = 327922754 found = 13214807
+Oct 06 19:15:53     [1] Building negation
+Oct 06 19:15:59     [1] Sort inbox
+Oct 06 19:16:44     [1] Sort inboxNegs
+Oct 06 19:17:26     [1] Merging into big
+Oct 06 19:18:42     [1] Finding matches
+Oct 06 19:19:03     [1] newly found: 22116295
+Oct 06 19:19:08 ------------------
+Oct 06 19:19:08 Sizes: 0:2000000000 1:540190124 2:13214807 3:17857
+Oct 06 19:19:08       [2] Status: inbox = 22116295 big = 13214807 found = 17857
+Oct 06 19:19:08       [2] Building negation
+Oct 06 19:19:09       [2] Sort inbox
+Oct 06 19:19:11       [2] Sort inboxNegs
+Oct 06 19:19:12       [2] Merging into big
+Oct 06 19:19:16       [2] Finding matches
+Oct 06 19:19:18       [2] newly found: 117033
+Oct 06 19:19:19 ------------------
+Oct 06 19:19:19 Sizes: 0:2000000000 1:540190124 2:35331102 3:17857
+Oct 06 19:19:19         [3] Status: inbox = 117033 big = 17857 found = 0
+Oct 06 19:19:19         [3] Building negation
+Oct 06 19:19:19         [3] Sort inbox
+Oct 06 19:19:19         [3] Sort inboxNegs
+Oct 06 19:19:19         [3] Merging into big
+Oct 06 19:19:19         [3] Finding matches
+Oct 06 19:19:19         [3] newly found: 0
+Oct 06 19:19:19 ------------------
+Oct 06 19:19:19 Sizes: 0:2000000000 1:540190124 2:35331102 3:134890
+Oct 06 19:19:19 Generating 500000000 fresh hashes
+Oct 06 19:19:53   [0] Status: inbox = 500000000 big = 2000000000 found = 540190124
+Oct 06 19:19:53   [0] Building negation
+Oct 06 19:20:36   [0] Sort inbox
+Oct 06 19:22:53   [0] Sort inboxNegs
+Oct 06 19:24:51   [0] Merging into big
+Oct 06 19:30:05   [0] Finding matches
+Oct 06 19:32:27   [0] newly found: 260986504
+Oct 06 19:32:31 ------------------
+Oct 06 19:32:31 Sizes: 0:2500000000 1:540190124 2:35331102 3:134890
+Oct 06 19:32:31     [1] Status: inbox = 260986504 big = 540190124 found = 35331102
+Oct 06 19:32:31     [1] Building negation
+Oct 06 19:32:40     [1] Sort inbox
+Oct 06 19:33:42     [1] Sort inboxNegs
+Oct 06 19:34:31     [1] Merging into big
+Oct 06 19:36:19     [1] Finding matches
+Oct 06 19:36:49     [1] newly found: 41261030
+Oct 06 19:36:55 ------------------
+Oct 06 19:36:55 Sizes: 0:2500000000 1:801176628 2:35331102 3:134890
+Oct 06 19:36:55       [2] Status: inbox = 41261030 big = 35331102 found = 134890
+Oct 06 19:36:55       [2] Building negation
+Oct 06 19:36:56       [2] Sort inbox
+Oct 06 19:36:59       [2] Sort inboxNegs
+Oct 06 19:37:03       [2] Merging into big
+Oct 06 19:37:12       [2] Finding matches
+Oct 06 19:37:17       [2] newly found: 514202
+Oct 06 19:37:18 ------------------
+Oct 06 19:37:18 Sizes: 0:2500000000 1:801176628 2:76592132 3:134890
+Oct 06 19:37:18         [3] Status: inbox = 514202 big = 134890 found = 0
+Oct 06 19:37:18         [3] Building negation
+Oct 06 19:37:18         [3] Sort inbox
+Oct 06 19:37:18         [3] Sort inboxNegs
+Oct 06 19:37:18         [3] Merging into big
+Oct 06 19:37:18         [3] Finding matches
+Oct 06 19:37:19         [3] newly found: 55
+Oct 06 19:37:19 ------------------
+Oct 06 19:37:19 Sizes: 0:2500000000 1:801176628 2:76592132 3:649092
+Oct 06 19:37:19           [4] Status: inbox = 55 big = 0 found = 0
+Oct 06 19:37:19           [4] Building negation
+Oct 06 19:37:19           [4] Sort inbox
+Oct 06 19:37:19           [4] Sort inboxNegs
+Oct 06 19:37:19           [4] Moving inbox to big
+Oct 06 19:37:19           [4] Finding matches
+Oct 06 19:37:19           [4] newly found: 0
+Oct 06 19:37:19 ------------------
+Oct 06 19:37:19 Sizes: 0:2500000000 1:801176628 2:76592132 3:649092 4:55
+Oct 06 19:37:19 Generating 500000000 fresh hashes
+Oct 06 19:37:54   [0] Status: inbox = 500000000 big = 2500000000 found = 801176628
+Oct 06 19:37:54   [0] Building negation
+Oct 06 19:38:38   [0] Sort inbox
+Oct 06 19:40:55   [0] Sort inboxNegs
+Oct 06 19:43:05   [0] Merging into big
+Oct 06 19:49:23   [0] Finding matches
+Oct 06 19:52:13   [0] newly found: 308203835
+Oct 06 19:52:17 ------------------
+Oct 06 19:52:17 Sizes: 0:3000000000 1:801176628 2:76592132 3:649092 4:55
+Oct 06 19:52:17     [1] Status: inbox = 308203835 big = 801176628 found = 76592132
+Oct 06 19:52:17     [1] Building negation
+Oct 06 19:52:34     [1] Sort inbox
+Oct 06 19:53:47     [1] Sort inboxNegs
+Oct 06 19:54:45     [1] Merging into big
+Oct 06 19:57:08     [1] Finding matches
+Oct 06 19:58:13     [1] newly found: 68182173
+Oct 06 19:58:17 ------------------
+Oct 06 19:58:17 Sizes: 0:3000000000 1:1109380463 2:76592132 3:649092 4:55
+Oct 06 19:58:17       [2] Status: inbox = 68182173 big = 76592132 found = 649092
+Oct 06 19:58:17       [2] Building negation
+Oct 06 19:58:19       [2] Sort inbox
+Oct 06 19:58:25       [2] Sort inboxNegs
+Oct 06 19:58:32       [2] Merging into big
+Oct 06 19:58:50       [2] Finding matches
+Oct 06 19:58:56       [2] newly found: 1696954
+Oct 06 19:58:58 ------------------
+Oct 06 19:58:58 Sizes: 0:3000000000 1:1109380463 2:144774305 3:649092 4:55
+Oct 06 19:58:58         [3] Status: inbox = 1696954 big = 649092 found = 55
+Oct 06 19:58:58         [3] Building negation
+Oct 06 19:58:58         [3] Sort inbox
+Oct 06 19:58:58         [3] Sort inboxNegs
+Oct 06 19:58:58         [3] Merging into big
+Oct 06 19:58:58         [3] Finding matches
+Oct 06 19:58:59         [3] newly found: 465
+Oct 06 19:58:59 ------------------
+Oct 06 19:58:59 Sizes: 0:3000000000 1:1109380463 2:144774305 3:2346046 4:55
+Oct 06 19:58:59           [4] Status: inbox = 465 big = 55 found = 0
+Oct 06 19:58:59           [4] Building negation
+Oct 06 19:58:59           [4] Sort inbox
+Oct 06 19:58:59           [4] Sort inboxNegs
+Oct 06 19:58:59           [4] Merging into big
+Oct 06 19:58:59           [4] Finding matches
+Oct 06 19:58:59           [4] newly found: 0
+Oct 06 19:58:59 ------------------
+Oct 06 19:58:59 Sizes: 0:3000000000 1:1109380463 2:144774305 3:2346046 4:520
+Oct 06 19:58:59 Generating 500000000 fresh hashes
+Oct 06 19:59:31   [0] Status: inbox = 500000000 big = 3000000000 found = 1109380463
+Oct 06 19:59:31   [0] Building negation
+Oct 06 20:00:13   [0] Sort inbox
+Oct 06 20:02:45   [0] Sort inboxNegs
+Oct 06 20:04:37   [0] Merging into big
+Oct 06 20:12:02   [0] Finding matches
+Oct 06 20:15:18   [0] newly found: 354059952
+Oct 06 20:15:18 ------------------
+Oct 06 20:15:18 Sizes: 0:3500000000 1:1109380463 2:144774305 3:2346046 4:520
+Oct 06 20:15:18     [1] Status: inbox = 354059952 big = 1109380463 found = 144774305
+Oct 06 20:15:18     [1] Building negation
+Oct 06 20:15:41     [1] Sort inbox
+Oct 06 20:17:16     [1] Sort inboxNegs
+Oct 06 20:18:31     [1] Merging into big
+Oct 06 20:21:37     [1] Finding matches
+Oct 06 20:22:59     [1] newly found: 103612672
+Oct 06 20:23:04 ------------------
+Oct 06 20:23:04 Sizes: 0:3500000000 1:1463440415 2:144774305 3:2346046 4:520
+Oct 06 20:23:04       [2] Status: inbox = 103612672 big = 144774305 found = 2346046
+Oct 06 20:23:04       [2] Building negation
+Oct 06 20:23:07       [2] Sort inbox
+Oct 06 20:23:17       [2] Sort inboxNegs
+Oct 06 20:23:26       [2] Merging into big
+Oct 06 20:23:58       [2] Finding matches
+Oct 06 20:24:11       [2] newly found: 4593857
+Oct 06 20:24:14 ------------------
+Oct 06 20:24:14 Sizes: 0:3500000000 1:1463440415 2:248386977 3:2346046 4:520
+Oct 06 20:24:14         [3] Status: inbox = 4593857 big = 2346046 found = 520
+Oct 06 20:24:14         [3] Building negation
+Oct 06 20:24:14         [3] Sort inbox
+Oct 06 20:24:14         [3] Sort inboxNegs
+Oct 06 20:24:14         [3] Merging into big
+Oct 06 20:24:15         [3] Finding matches
+Oct 06 20:24:15         [3] newly found: 4287
+Oct 06 20:24:16 ------------------
+Oct 06 20:24:16 Sizes: 0:3500000000 1:1463440415 2:248386977 3:6939903 4:520
+Oct 06 20:24:16           [4] Status: inbox = 4287 big = 520 found = 0
+Oct 06 20:24:16           [4] Building negation
+Oct 06 20:24:16           [4] Sort inbox
+Oct 06 20:24:16           [4] Sort inboxNegs
+Oct 06 20:24:16           [4] Merging into big
+Oct 06 20:24:16           [4] Finding matches
+Oct 06 20:24:16           [4] newly found: 0
+Oct 06 20:24:16 ------------------
+Oct 06 20:24:16 Sizes: 0:3500000000 1:1463440415 2:248386977 3:6939903 4:4807
+Oct 06 20:24:16 Generating 500000000 fresh hashes
+Oct 06 20:24:48   [0] Status: inbox = 500000000 big = 3500000000 found = 1463440415
+Oct 06 20:24:48   [0] Building negation
+Oct 06 20:25:30   [0] Sort inbox
+Oct 06 20:27:54   [0] Sort inboxNegs
+Oct 06 20:29:58   [0] Merging into big
+Oct 06 20:38:16   [0] Finding matches
+Oct 06 20:42:01   [0] newly found: 398763483
+Oct 06 20:42:03 ------------------
+Oct 06 20:42:03 Sizes: 0:4000000000(done) 1:1463440415 2:248386977 3:6939903 4:4807
+Oct 06 20:42:03     [1] Status: inbox = 398763483 big = 1463440415 found = 248386977
+Oct 06 20:42:03     [1] Building negation
+Oct 06 20:42:30     [1] Sort inbox
+Oct 06 20:44:21     [1] Sort inboxNegs
+Oct 06 20:45:41     [1] Merging into big
+Oct 06 20:49:36     [1] Finding matches
+Oct 06 20:51:22     [1] newly found: 148133661
+Oct 06 20:51:25 ------------------
+Oct 06 20:51:25 Sizes: 0:4000000000(done) 1:1862203898 2:248386977 3:6939903 4:4807
+Oct 06 20:51:25       [2] Status: inbox = 148133661 big = 248386977 found = 6939903
+Oct 06 20:51:25       [2] Building negation
+Oct 06 20:51:29       [2] Sort inbox
+Oct 06 20:51:51       [2] Sort inboxNegs
+Oct 06 20:52:06       [2] Merging into big
+Oct 06 20:53:00       [2] Finding matches
+Oct 06 20:53:15       [2] newly found: 10773281
+Oct 06 20:53:17 ------------------
+Oct 06 20:53:17 Sizes: 0:4000000000(done) 1:1862203898 2:396520638 3:6939903 4:4807
+Oct 06 20:53:17         [3] Status: inbox = 10773281 big = 6939903 found = 4807
+Oct 06 20:53:17         [3] Building negation
+Oct 06 20:53:17         [3] Sort inbox
+Oct 06 20:53:18         [3] Sort inboxNegs
+Oct 06 20:53:19         [3] Merging into big
+Oct 06 20:53:20         [3] Finding matches
+Oct 06 20:53:20         [3] newly found: 27778
+Oct 06 20:53:21 ------------------
+Oct 06 20:53:21 Sizes: 0:4000000000(done) 1:1862203898 2:396520638 3:17713184 4:4807
+Oct 06 20:53:21           [4] Status: inbox = 27778 big = 4807 found = 0
+Oct 06 20:53:21           [4] Building negation
+Oct 06 20:53:21           [4] Sort inbox
+Oct 06 20:53:21           [4] Sort inboxNegs
+Oct 06 20:53:21           [4] Merging into big
+Oct 06 20:53:21           [4] Finding matches
+Oct 06 20:53:21           [4] newly found: 0
+Oct 06 20:53:21 ------------------
+Oct 06 20:53:21 Sizes: 0:4000000000(done) 1:1862203898 2:396520638 3:17713184 4:32585
+Oct 06 20:53:21 Generating 500000000 fresh hashes
+Oct 06 20:53:50   [0] Status: inbox = 500000000 big = 4000000000 found = 1862203898
+Oct 06 20:53:50   [0] Building negation
+Oct 06 20:54:33   [0] Sort inboxNegs
+Oct 06 20:57:04   [0] Finding matches
+Oct 06 21:00:54   [0] newly found: 398722574
+Oct 06 21:00:57 ------------------
+Oct 06 21:00:57 Sizes: 0:4000000000(done) 1:1862203898 2:396520638 3:17713184 4:32585
+Oct 06 21:00:57     [1] Status: inbox = 398722574 big = 1862203898 found = 396520638
+Oct 06 21:00:57     [1] Building negation
+Oct 06 21:01:21     [1] Sort inbox
+Oct 06 21:03:12     [1] Sort inboxNegs
+Oct 06 21:04:38     [1] Merging into big
+Oct 06 21:09:21     [1] Finding matches
+Oct 06 21:11:26     [1] newly found: 184669210
+Oct 06 21:11:26 ------------------
+Oct 06 21:11:26 Sizes: 0:4000000000(done) 1:2260926472 2:396520638 3:17713184 4:32585
+Oct 06 21:11:26       [2] Status: inbox = 184669210 big = 396520638 found = 17713184
+Oct 06 21:11:26       [2] Building negation
+Oct 06 21:11:32       [2] Sort inbox
+Oct 06 21:12:07       [2] Sort inboxNegs
+Oct 06 21:12:39       [2] Merging into big
+Oct 06 21:14:01       [2] Finding matches
+Oct 06 21:14:24       [2] newly found: 20451673
+Oct 06 21:14:28 ------------------
+Oct 06 21:14:28 Sizes: 0:4000000000(done) 1:2260926472 2:581189848 3:17713184 4:32585
+Oct 06 21:14:28         [3] Status: inbox = 20451673 big = 17713184 found = 32585
+Oct 06 21:14:28         [3] Building negation
+Oct 06 21:14:29         [3] Sort inbox
+Oct 06 21:14:30         [3] Sort inboxNegs
+Oct 06 21:14:32         [3] Merging into big
+Oct 06 21:14:36         [3] Finding matches
+Oct 06 21:14:38         [3] newly found: 122543
+Oct 06 21:14:39 ------------------
+Oct 06 21:14:39 Sizes: 0:4000000000(done) 1:2260926472 2:581189848 3:38164857 4:32585
+Oct 06 21:14:39           [4] Status: inbox = 122543 big = 32585 found = 0
+Oct 06 21:14:39           [4] Building negation
+Oct 06 21:14:39           [4] Sort inbox
+Oct 06 21:14:39           [4] Sort inboxNegs
+Oct 06 21:14:39           [4] Merging into big
+Oct 06 21:14:39           [4] Finding matches
+Oct 06 21:14:39           [4] newly found: 0
+Oct 06 21:14:39 ------------------
+Oct 06 21:14:39 Sizes: 0:4000000000(done) 1:2260926472 2:581189848 3:38164857 4:155128
+Oct 06 21:14:39 Generating 500000000 fresh hashes
+Oct 06 21:15:13   [0] Status: inbox = 500000000 big = 4000000000 found = 2260926472
+Oct 06 21:15:13   [0] Building negation
+Oct 06 21:15:54   [0] Sort inboxNegs
+Oct 06 21:17:57   [0] Finding matches
+Oct 06 21:21:43   [0] newly found: 398726878
+Oct 06 21:21:46 ------------------
+Oct 06 21:21:46 Sizes: 0:4000000000(done) 1:2260926472 2:581189848 3:38164857 4:155128
+Oct 06 21:21:46     [1] Status: inbox = 398726878 big = 2260926472 found = 581189848
+Oct 06 21:21:46     [1] Building negation
+Oct 06 21:22:12     [1] Sort inbox
+Oct 06 21:23:58     [1] Sort inboxNegs
+Oct 06 21:25:18     [1] Merging into big
+Oct 06 21:30:54     [1] Finding matches
+Oct 06 21:33:18     [1] newly found: 215863313
+Oct 06 21:33:21 ------------------
+Oct 06 21:33:21 Sizes: 0:4000000000(done) 1:2659653350 2:581189848 3:38164857 4:155128
+Oct 06 21:33:21       [2] Status: inbox = 215863313 big = 581189848 found = 38164857
+Oct 06 21:33:21       [2] Building negation
+Oct 06 21:33:28       [2] Sort inbox
+Oct 06 21:34:12       [2] Sort inboxNegs
+Oct 06 21:34:52       [2] Merging into big
+Oct 06 21:36:41       [2] Finding matches
+Oct 06 21:37:09       [2] newly found: 33364727
+Oct 06 21:37:14 ------------------
+Oct 06 21:37:14 Sizes: 0:4000000000(done) 1:2659653350 2:797053161 3:38164857 4:155128
+Oct 06 21:37:14         [3] Status: inbox = 33364727 big = 38164857 found = 155128
+Oct 06 21:37:14         [3] Building negation
+Oct 06 21:37:15         [3] Sort inbox
+Oct 06 21:37:18         [3] Sort inboxNegs
+Oct 06 21:37:22         [3] Merging into big
+Oct 06 21:37:31         [3] Finding matches
+Oct 06 21:37:34         [3] newly found: 397295
+Oct 06 21:37:35 ------------------
+Oct 06 21:37:35 Sizes: 0:4000000000(done) 1:2659653350 2:797053161 3:71529584 4:155128
+Oct 06 21:37:35           [4] Status: inbox = 397295 big = 155128 found = 0
+Oct 06 21:37:35           [4] Building negation
+Oct 06 21:37:35           [4] Sort inbox
+Oct 06 21:37:35           [4] Sort inboxNegs
+Oct 06 21:37:35           [4] Merging into big
+Oct 06 21:37:35           [4] Finding matches
+Oct 06 21:37:35           [4] newly found: 32
+Oct 06 21:37:35 ------------------
+Oct 06 21:37:35 Sizes: 0:4000000000(done) 1:2659653350 2:797053161 3:71529584 4:552423
+Oct 06 21:37:35             [5] Status: inbox = 32 big = 0 found = 0
+Oct 06 21:37:35             [5] Building negation
+Oct 06 21:37:35             [5] Sort inbox
+Oct 06 21:37:35             [5] Sort inboxNegs
+Oct 06 21:37:35             [5] Moving inbox to big
+Oct 06 21:37:35             [5] Finding matches
+Oct 06 21:37:35             [5] newly found: 0
+Oct 06 21:37:35 ------------------
+Oct 06 21:37:35 Sizes: 0:4000000000(done) 1:2659653350 2:797053161 3:71529584 4:552423 5:32
+Oct 06 21:37:35 Generating 500000000 fresh hashes
+Oct 06 21:38:14   [0] Status: inbox = 500000000 big = 4000000000 found = 2659653350
+Oct 06 21:38:14   [0] Building negation
+Oct 06 21:38:57   [0] Sort inboxNegs
+Oct 06 21:40:45   [0] Finding matches
+Oct 06 21:44:39   [0] newly found: 398730562
+Oct 06 21:44:41 ------------------
+Oct 06 21:44:41 Sizes: 0:4000000000(done) 1:2659653350 2:797053161 3:71529584 4:552423 5:32
+Oct 06 21:44:41     [1] Status: inbox = 398730562 big = 2659653350 found = 797053161
+Oct 06 21:44:41     [1] Building negation
+Oct 06 21:45:04     [1] Sort inbox
+Oct 06 21:46:44     [1] Sort inboxNegs
+Oct 06 21:48:00     [1] Merging into big
+Oct 06 21:54:27     [1] Finding matches
+Oct 06 21:57:17     [1] newly found: 246308028
+Oct 06 21:57:19 ------------------
+Oct 06 21:57:19 Sizes: 0:4000000000(done) 1:3058383912 2:797053161 3:71529584 4:552423 5:32
+Oct 06 21:57:19       [2] Status: inbox = 246308028 big = 797053161 found = 71529584
+Oct 06 21:57:19       [2] Building negation
+Oct 06 21:57:29       [2] Sort inbox
+Oct 06 21:58:27       [2] Sort inboxNegs
+Oct 06 21:59:13       [2] Merging into big
+Oct 06 22:01:33       [2] Finding matches
+Oct 06 22:02:15       [2] newly found: 50349118
+Oct 06 22:02:18 ------------------
+Oct 06 22:02:18 Sizes: 0:4000000000(done) 1:3058383912 2:1043361189 3:71529584 4:552423 5:32
+Oct 06 22:02:18         [3] Status: inbox = 50349118 big = 71529584 found = 552423
+Oct 06 22:02:18         [3] Building negation
+Oct 06 22:02:19         [3] Sort inbox
+Oct 06 22:02:23         [3] Sort inboxNegs
+Oct 06 22:02:26         [3] Merging into big
+Oct 06 22:02:42         [3] Finding matches
+Oct 06 22:02:48         [3] newly found: 1061932
+Oct 06 22:02:49 ------------------
+Oct 06 22:02:49 Sizes: 0:4000000000(done) 1:3058383912 2:1043361189 3:121878702 4:552423 5:32
+Oct 06 22:02:49           [4] Status: inbox = 1061932 big = 552423 found = 32
+Oct 06 22:02:49           [4] Building negation
+Oct 06 22:02:49           [4] Sort inbox
+Oct 06 22:02:49           [4] Sort inboxNegs
+Oct 06 22:02:49           [4] Merging into big
+Oct 06 22:02:50           [4] Finding matches
+Oct 06 22:02:50           [4] newly found: 258
+Oct 06 22:02:50 ------------------
+Oct 06 22:02:50 Sizes: 0:4000000000(done) 1:3058383912 2:1043361189 3:121878702 4:1614355 5:32
+Oct 06 22:02:50             [5] Status: inbox = 258 big = 32 found = 0
+Oct 06 22:02:50             [5] Building negation
+Oct 06 22:02:50             [5] Sort inbox
+Oct 06 22:02:50             [5] Sort inboxNegs
+Oct 06 22:02:50             [5] Merging into big
+Oct 06 22:02:50             [5] Finding matches
+Oct 06 22:02:50             [5] newly found: 0
+Oct 06 22:02:50 ------------------
+Oct 06 22:02:50 Sizes: 0:4000000000(done) 1:3058383912 2:1043361189 3:121878702 4:1614355 5:290
+Oct 06 22:02:50 Generating 500000000 fresh hashes
+Oct 06 22:03:25   [0] Status: inbox = 500000000 big = 4000000000 found = 3058383912
+Oct 06 22:03:25   [0] Building negation
+Oct 06 22:04:05   [0] Sort inboxNegs
+Oct 06 22:06:32   [0] Finding matches
+Oct 06 22:10:21   [0] newly found: 398723168
+Oct 06 22:10:23 ------------------
+Oct 06 22:10:23 Sizes: 0:4000000000(done) 1:3058383912 2:1043361189 3:121878702 4:1614355 5:290
+Oct 06 22:10:23     [1] Status: inbox = 398723168 big = 3058383912 found = 1043361189
+Oct 06 22:10:23     [1] Building negation
+Oct 06 22:10:49     [1] Sort inbox
+Oct 06 22:12:30     [1] Sort inboxNegs
+Oct 06 22:14:00     [1] Merging into big
+Oct 06 22:21:21     [1] Finding matches
+Oct 06 22:24:30     [1] newly found: 276036818
+Oct 06 22:24:32 ------------------
+Oct 06 22:24:32 Sizes: 0:4000000000(done) 1:3457107080 2:1043361189 3:121878702 4:1614355 5:290
+Oct 06 22:24:32       [2] Status: inbox = 276036818 big = 1043361189 found = 121878702
+Oct 06 22:24:32       [2] Building negation
+Oct 06 22:24:43       [2] Sort inbox
+Oct 06 22:25:52       [2] Sort inboxNegs
+Oct 06 22:26:42       [2] Merging into big
+Oct 06 22:29:31       [2] Finding matches
+Oct 06 22:30:45       [2] newly found: 71673328
+Oct 06 22:30:48 ------------------
+Oct 06 22:30:48 Sizes: 0:4000000000(done) 1:3457107080 2:1319398007 3:121878702 4:1614355 5:290
+Oct 06 22:30:48         [3] Status: inbox = 71673328 big = 121878702 found = 1614355
+Oct 06 22:30:48         [3] Building negation
+Oct 06 22:30:49         [3] Sort inbox
+Oct 06 22:30:56         [3] Sort inboxNegs
+Oct 06 22:31:04         [3] Merging into big
+Oct 06 22:31:29         [3] Finding matches
+Oct 06 22:31:36         [3] newly found: 2476914
+Oct 06 22:31:37 ------------------
+Oct 06 22:31:37 Sizes: 0:4000000000(done) 1:3457107080 2:1319398007 3:193552030 4:1614355 5:290
+Oct 06 22:31:37           [4] Status: inbox = 2476914 big = 1614355 found = 290
+Oct 06 22:31:37           [4] Building negation
+Oct 06 22:31:37           [4] Sort inbox
+Oct 06 22:31:37           [4] Sort inboxNegs
+Oct 06 22:31:38           [4] Merging into big
+Oct 06 22:31:38           [4] Finding matches
+Oct 06 22:31:38           [4] newly found: 1436
+Oct 06 22:31:38 ------------------
+Oct 06 22:31:38 Sizes: 0:4000000000(done) 1:3457107080 2:1319398007 3:193552030 4:4091269 5:290
+Oct 06 22:31:38             [5] Status: inbox = 1436 big = 290 found = 0
+Oct 06 22:31:38             [5] Building negation
+Oct 06 22:31:38             [5] Sort inbox
+Oct 06 22:31:38             [5] Sort inboxNegs
+Oct 06 22:31:38             [5] Merging into big
+Oct 06 22:31:38             [5] Finding matches
+Oct 06 22:31:38             [5] newly found: 0
+Oct 06 22:31:38 ------------------
+Oct 06 22:31:38 Sizes: 0:4000000000(done) 1:3457107080 2:1319398007 3:193552030 4:4091269 5:1726
+Oct 06 22:31:38 Generating 500000000 fresh hashes
+Oct 06 22:32:11   [0] Status: inbox = 500000000 big = 4000000000 found = 3457107080
+Oct 06 22:32:11   [0] Building negation
+Oct 06 22:32:52   [0] Sort inboxNegs
+Oct 06 22:35:07   [0] Finding matches
+Oct 06 22:38:59   [0] newly found: 398719067
+Oct 06 22:39:01 ------------------
+Oct 06 22:39:01 Sizes: 0:4000000000(done) 1:3457107080 2:1319398007 3:193552030 4:4091269 5:1726
+Oct 06 22:39:01     [1] Status: inbox = 398719067 big = 3457107080 found = 1319398007
+Oct 06 22:39:01     [1] Building negation
+Oct 06 22:39:25     [1] Sort inbox
+Oct 06 22:41:21     [1] Sort inboxNegs
+Oct 06 22:42:49     [1] Merging into big
+Oct 06 22:50:57     [1] Finding matches
+Oct 06 22:54:26     [1] newly found: 305090064
+Oct 06 22:54:28 ------------------
+Oct 06 22:54:28 Sizes: 0:4000000000(done) 1:3855826147 2:1319398007 3:193552030 4:4091269 5:1726
+Oct 06 22:54:28       [2] Status: inbox = 305090064 big = 1319398007 found = 193552030
+Oct 06 22:54:28       [2] Building negation
+Oct 06 22:54:44       [2] Sort inbox
+Oct 06 22:55:51       [2] Sort inboxNegs
+Oct 06 22:56:42       [2] Merging into big
+Oct 06 23:00:12       [2] Finding matches
+Oct 06 23:01:42       [2] newly found: 97651921
+Oct 06 23:01:45 ------------------
+Oct 06 23:01:45 Sizes: 0:4000000000(done) 1:3855826147 2:1624488071 3:193552030 4:4091269 5:1726
+Oct 06 23:01:45         [3] Status: inbox = 97651921 big = 193552030 found = 4091269
+Oct 06 23:01:45         [3] Building negation
+Oct 06 23:01:48         [3] Sort inbox
+Oct 06 23:01:58         [3] Sort inboxNegs
+Oct 06 23:02:08         [3] Merging into big
+Oct 06 23:02:50         [3] Finding matches
+Oct 06 23:03:01         [3] newly found: 5182346
+Oct 06 23:03:03 ------------------
+Oct 06 23:03:03 Sizes: 0:4000000000(done) 1:3855826147 2:1624488071 3:291203951 4:4091269 5:1726
+Oct 06 23:03:03           [4] Status: inbox = 5182346 big = 4091269 found = 1726
+Oct 06 23:03:03           [4] Building negation
+Oct 06 23:03:03           [4] Sort inbox
+Oct 06 23:03:04           [4] Sort inboxNegs
+Oct 06 23:03:04           [4] Merging into big
+Oct 06 23:03:05           [4] Finding matches
+Oct 06 23:03:06           [4] newly found: 7116
+Oct 06 23:03:06 ------------------
+Oct 06 23:03:06 Sizes: 0:4000000000(done) 1:3855826147 2:1624488071 3:291203951 4:9273615 5:1726
+Oct 06 23:03:06             [5] Status: inbox = 7116 big = 1726 found = 0
+Oct 06 23:03:06             [5] Building negation
+Oct 06 23:03:06             [5] Sort inbox
+Oct 06 23:03:06             [5] Sort inboxNegs
+Oct 06 23:03:06             [5] Merging into big
+Oct 06 23:03:06             [5] Finding matches
+Oct 06 23:03:06             [5] newly found: 0
+Oct 06 23:03:06 ------------------
+Oct 06 23:03:06 Sizes: 0:4000000000(done) 1:3855826147 2:1624488071 3:291203951 4:9273615 5:8842
+Oct 06 23:03:06 Generating 500000000 fresh hashes
+Oct 06 23:03:40   [0] Status: inbox = 500000000 big = 4000000000 found = 3855826147
+Oct 06 23:03:40   [0] Building negation
+Oct 06 23:04:23   [0] Sort inboxNegs
+Oct 06 23:06:29   [0] Finding matches
+Oct 06 23:10:23   [0] newly found: 398769508
+Oct 06 23:10:25 ------------------
+Oct 06 23:10:25 Sizes: 0:4000000000(done) 1:3855826147 2:1624488071 3:291203951 4:9273615 5:8842
+Oct 06 23:10:25     [1] Status: inbox = 398769508 big = 3855826147 found = 1624488071
+Oct 06 23:10:25     [1] Building negation
+Oct 06 23:10:48     [1] Sort inbox
+Oct 06 23:12:37     [1] Sort inboxNegs
+Oct 06 23:14:06     [1] Merging into big
+Oct 06 23:23:01     [1] Finding matches
+Oct 06 23:26:53     [1] newly found: 333588420
+Oct 06 23:26:55 ------------------
+Oct 06 23:26:55 Sizes: 0:4000000000(done) 1:4254595655(done) 2:1624488071 3:291203951 4:9273615 5:8842
+Oct 06 23:26:55       [2] Status: inbox = 333588420 big = 1624488071 found = 291203951
+Oct 06 23:26:55       [2] Building negation
+Oct 06 23:27:12       [2] Sort inbox
+Oct 06 23:28:40       [2] Sort inboxNegs
+Oct 06 23:29:43       [2] Merging into big
+Oct 06 23:33:51       [2] Finding matches
+Oct 06 23:35:39       [2] newly found: 128463964
+Oct 06 23:35:43 ------------------
+Oct 06 23:35:43 Sizes: 0:4000000000(done) 1:4254595655(done) 2:1958076491 3:291203951 4:9273615 5:8842
+Oct 06 23:35:43         [3] Status: inbox = 128463964 big = 291203951 found = 9273615
+Oct 06 23:35:43         [3] Building negation
+Oct 06 23:35:47         [3] Sort inbox
+Oct 06 23:36:00         [3] Sort inboxNegs
+Oct 06 23:36:13         [3] Merging into big
+Oct 06 23:37:12         [3] Finding matches
+Oct 06 23:37:25         [3] newly found: 9995292
+Oct 06 23:37:28 ------------------
+Oct 06 23:37:28 Sizes: 0:4000000000(done) 1:4254595655(done) 2:1958076491 3:419667915 4:9273615 5:8842
+Oct 06 23:37:28           [4] Status: inbox = 9995292 big = 9273615 found = 8842
+Oct 06 23:37:28           [4] Building negation
+Oct 06 23:37:28           [4] Sort inbox
+Oct 06 23:37:29           [4] Sort inboxNegs
+Oct 06 23:37:30           [4] Merging into big
+Oct 06 23:37:32           [4] Finding matches
+Oct 06 23:37:33           [4] newly found: 30490
+Oct 06 23:37:33 ------------------
+Oct 06 23:37:33 Sizes: 0:4000000000(done) 1:4254595655(done) 2:1958076491 3:419667915 4:19268907 5:8842
+Oct 06 23:37:33             [5] Status: inbox = 30490 big = 8842 found = 0
+Oct 06 23:37:33             [5] Building negation
+Oct 06 23:37:33             [5] Sort inbox
+Oct 06 23:37:33             [5] Sort inboxNegs
+Oct 06 23:37:33             [5] Merging into big
+Oct 06 23:37:33             [5] Finding matches
+Oct 06 23:37:33             [5] newly found: 0
+Oct 06 23:37:33 ------------------
+Oct 06 23:37:33 Sizes: 0:4000000000(done) 1:4254595655(done) 2:1958076491 3:419667915 4:19268907 5:39332
+Oct 06 23:37:33 Generating 500000000 fresh hashes
+Oct 06 23:38:07   [0] Status: inbox = 500000000 big = 4000000000 found = 4254595655
+Oct 06 23:38:07   [0] Building negation
+Oct 06 23:38:47   [0] Sort inboxNegs
+Oct 06 23:41:04   [0] Finding matches
+Oct 06 23:44:54   [0] newly found: 398745951
+Oct 06 23:44:56 ------------------
+Oct 06 23:44:56 Sizes: 0:4000000000(done) 1:4254595655(done) 2:1958076491 3:419667915 4:19268907 5:39332
+Oct 06 23:44:56     [1] Status: inbox = 398745951 big = 4254595655 found = 1958076491
+Oct 06 23:44:56     [1] Building negation
+Oct 06 23:45:24     [1] Sort inboxNegs
+Oct 06 23:47:00     [1] Finding matches
+Oct 06 23:50:53     [1] newly found: 333589021
+Oct 06 23:50:54 ------------------
+Oct 06 23:50:54 Sizes: 0:4000000000(done) 1:4254595655(done) 2:1958076491 3:419667915 4:19268907 5:39332
+Oct 06 23:50:54       [2] Status: inbox = 333589021 big = 1958076491 found = 419667915
+Oct 06 23:50:54       [2] Building negation
+Oct 06 23:51:12       [2] Sort inbox
+Oct 06 23:52:36       [2] Sort inboxNegs
+Oct 06 23:53:39       [2] Merging into big
+Oct 06 23:58:33       [2] Finding matches
+Oct 07 00:00:40       [2] newly found: 153391575
+Oct 07 00:00:42 ------------------
+Oct 07 00:00:42 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2291665512 3:419667915 4:19268907 5:39332
+Oct 07 00:00:42         [3] Status: inbox = 153391575 big = 419667915 found = 19268907
+Oct 07 00:00:42         [3] Building negation
+Oct 07 00:00:46         [3] Sort inbox
+Oct 07 00:01:11         [3] Sort inboxNegs
+Oct 07 00:01:26         [3] Merging into big
+Oct 07 00:02:49         [3] Finding matches
+Oct 07 00:03:06         [3] newly found: 16733012
+Oct 07 00:03:09 ------------------
+Oct 07 00:03:09 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2291665512 3:573059490 4:19268907 5:39332
+Oct 07 00:03:09           [4] Status: inbox = 16733012 big = 19268907 found = 39332
+Oct 07 00:03:09           [4] Building negation
+Oct 07 00:03:10           [4] Sort inbox
+Oct 07 00:03:11           [4] Sort inboxNegs
+Oct 07 00:03:13           [4] Merging into big
+Oct 07 00:03:17           [4] Finding matches
+Oct 07 00:03:19           [4] newly found: 98316
+Oct 07 00:03:20 ------------------
+Oct 07 00:03:20 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2291665512 3:573059490 4:36001919 5:39332
+Oct 07 00:03:20             [5] Status: inbox = 98316 big = 39332 found = 0
+Oct 07 00:03:20             [5] Building negation
+Oct 07 00:03:20             [5] Sort inbox
+Oct 07 00:03:20             [5] Sort inboxNegs
+Oct 07 00:03:20             [5] Merging into big
+Oct 07 00:03:20             [5] Finding matches
+Oct 07 00:03:20             [5] newly found: 2
+Oct 07 00:03:20 ------------------
+Oct 07 00:03:20 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2291665512 3:573059490 4:36001919 5:137648
+Oct 07 00:03:20               [6] Status: inbox = 2 big = 0 found = 0
+Oct 07 00:03:20               [6] Building negation
+Oct 07 00:03:20               [6] Sort inbox
+Oct 07 00:03:20               [6] Sort inboxNegs
+Oct 07 00:03:20               [6] Moving inbox to big
+Oct 07 00:03:20               [6] Finding matches
+Oct 07 00:03:20               [6] newly found: 0
+Oct 07 00:03:20 ------------------
+Oct 07 00:03:20 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2291665512 3:573059490 4:36001919 5:137648 6:2
+Oct 07 00:03:20 Generating 500000000 fresh hashes
+Oct 07 00:03:53   [0] Status: inbox = 500000000 big = 4000000000 found = 4653341606
+Oct 07 00:03:53   [0] Building negation
+Oct 07 00:04:35   [0] Sort inboxNegs
+Oct 07 00:06:56   [0] Finding matches
+Oct 07 00:10:42   [0] newly found: 398717876
+Oct 07 00:10:44 ------------------
+Oct 07 00:10:44 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2291665512 3:573059490 4:36001919 5:137648 6:2
+Oct 07 00:10:44     [1] Status: inbox = 398717876 big = 4254595655 found = 2291665512
+Oct 07 00:10:44     [1] Building negation
+Oct 07 00:11:10     [1] Sort inboxNegs
+Oct 07 00:12:27     [1] Finding matches
+Oct 07 00:16:15     [1] newly found: 333568981
+Oct 07 00:16:18 ------------------
+Oct 07 00:16:18 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2291665512 3:573059490 4:36001919 5:137648 6:2
+Oct 07 00:16:18       [2] Status: inbox = 333568981 big = 2291665512 found = 573059490
+Oct 07 00:16:18       [2] Building negation
+Oct 07 00:16:35       [2] Sort inbox
+Oct 07 00:17:53       [2] Sort inboxNegs
+Oct 07 00:18:55       [2] Merging into big
+Oct 07 00:24:18       [2] Finding matches
+Oct 07 00:26:43       [2] newly found: 174787691
+Oct 07 00:26:45 ------------------
+Oct 07 00:26:45 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2625234493 3:573059490 4:36001919 5:137648 6:2
+Oct 07 00:26:45         [3] Status: inbox = 174787691 big = 573059490 found = 36001919
+Oct 07 00:26:45         [3] Building negation
+Oct 07 00:26:51         [3] Sort inbox
+Oct 07 00:27:24         [3] Sort inboxNegs
+Oct 07 00:27:46         [3] Merging into big
+Oct 07 00:29:31         [3] Finding matches
+Oct 07 00:29:54         [3] newly found: 25189177
+Oct 07 00:29:56 ------------------
+Oct 07 00:29:56 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2625234493 3:747847181 4:36001919 5:137648 6:2
+Oct 07 00:29:56           [4] Status: inbox = 25189177 big = 36001919 found = 137648
+Oct 07 00:29:56           [4] Building negation
+Oct 07 00:29:57           [4] Sort inbox
+Oct 07 00:29:59           [4] Sort inboxNegs
+Oct 07 00:30:02           [4] Merging into big
+Oct 07 00:30:10           [4] Finding matches
+Oct 07 00:30:13           [4] newly found: 260625
+Oct 07 00:30:13 ------------------
+Oct 07 00:30:13 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2625234493 3:747847181 4:61191096 5:137648 6:2
+Oct 07 00:30:13             [5] Status: inbox = 260625 big = 137648 found = 2
+Oct 07 00:30:13             [5] Building negation
+Oct 07 00:30:13             [5] Sort inbox
+Oct 07 00:30:13             [5] Sort inboxNegs
+Oct 07 00:30:13             [5] Merging into big
+Oct 07 00:30:13             [5] Finding matches
+Oct 07 00:30:13             [5] newly found: 18
+Oct 07 00:30:13 ------------------
+Oct 07 00:30:13 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2625234493 3:747847181 4:61191096 5:398273 6:2
+Oct 07 00:30:13               [6] Status: inbox = 18 big = 2 found = 0
+Oct 07 00:30:13               [6] Building negation
+Oct 07 00:30:13               [6] Sort inbox
+Oct 07 00:30:13               [6] Sort inboxNegs
+Oct 07 00:30:13               [6] Merging into big
+Oct 07 00:30:13               [6] Finding matches
+Oct 07 00:30:13               [6] newly found: 0
+Oct 07 00:30:13 ------------------
+Oct 07 00:30:13 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2625234493 3:747847181 4:61191096 5:398273 6:20
+Oct 07 00:30:13 Generating 500000000 fresh hashes
+Oct 07 00:30:48   [0] Status: inbox = 500000000 big = 4000000000 found = 5052059482
+Oct 07 00:30:48   [0] Building negation
+Oct 07 00:31:34   [0] Sort inboxNegs
+Oct 07 00:33:48   [0] Finding matches
+Oct 07 00:37:35   [0] newly found: 398738689
+Oct 07 00:37:38 ------------------
+Oct 07 00:37:38 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2625234493 3:747847181 4:61191096 5:398273 6:20
+Oct 07 00:37:38     [1] Status: inbox = 398738689 big = 4254595655 found = 2625234493
+Oct 07 00:37:38     [1] Building negation
+Oct 07 00:38:06     [1] Sort inboxNegs
+Oct 07 00:39:32     [1] Finding matches
+Oct 07 00:43:24     [1] newly found: 333554440
+Oct 07 00:43:26 ------------------
+Oct 07 00:43:26 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2625234493 3:747847181 4:61191096 5:398273 6:20
+Oct 07 00:43:26       [2] Status: inbox = 333554440 big = 2625234493 found = 747847181
+Oct 07 00:43:26       [2] Building negation
+Oct 07 00:43:47       [2] Sort inbox
+Oct 07 00:45:12       [2] Sort inboxNegs
+Oct 07 00:46:20       [2] Merging into big
+Oct 07 00:52:30       [2] Finding matches
+Oct 07 00:55:09       [2] newly found: 195746253
+Oct 07 00:55:11 ------------------
+Oct 07 00:55:11 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2958788933 3:747847181 4:61191096 5:398273 6:20
+Oct 07 00:55:11         [3] Status: inbox = 195746253 big = 747847181 found = 61191096
+Oct 07 00:55:11         [3] Building negation
+Oct 07 00:55:19         [3] Sort inbox
+Oct 07 00:56:00         [3] Sort inboxNegs
+Oct 07 00:56:34         [3] Merging into big
+Oct 07 00:58:49         [3] Finding matches
+Oct 07 00:59:26         [3] newly found: 35868157
+Oct 07 00:59:28 ------------------
+Oct 07 00:59:28 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2958788933 3:943593434 4:61191096 5:398273 6:20
+Oct 07 00:59:28           [4] Status: inbox = 35868157 big = 61191096 found = 398273
+Oct 07 00:59:28           [4] Building negation
+Oct 07 00:59:29           [4] Sort inbox
+Oct 07 00:59:33           [4] Sort inboxNegs
+Oct 07 00:59:36           [4] Merging into big
+Oct 07 00:59:46           [4] Finding matches
+Oct 07 00:59:49           [4] newly found: 606752
+Oct 07 00:59:50 ------------------
+Oct 07 00:59:50 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2958788933 3:943593434 4:97059253 5:398273 6:20
+Oct 07 00:59:50             [5] Status: inbox = 606752 big = 398273 found = 20
+Oct 07 00:59:50             [5] Building negation
+Oct 07 00:59:50             [5] Sort inbox
+Oct 07 00:59:50             [5] Sort inboxNegs
+Oct 07 00:59:50             [5] Merging into big
+Oct 07 00:59:50             [5] Finding matches
+Oct 07 00:59:51             [5] newly found: 78
+Oct 07 00:59:51 ------------------
+Oct 07 00:59:51 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2958788933 3:943593434 4:97059253 5:1005025 6:20
+Oct 07 00:59:51               [6] Status: inbox = 78 big = 20 found = 0
+Oct 07 00:59:51               [6] Building negation
+Oct 07 00:59:51               [6] Sort inbox
+Oct 07 00:59:51               [6] Sort inboxNegs
+Oct 07 00:59:51               [6] Merging into big
+Oct 07 00:59:51               [6] Finding matches
+Oct 07 00:59:51               [6] newly found: 0
+Oct 07 00:59:51 ------------------
+Oct 07 00:59:51 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2958788933 3:943593434 4:97059253 5:1005025 6:98
+Oct 07 00:59:51 Generating 500000000 fresh hashes
+Oct 07 01:00:33   [0] Status: inbox = 500000000 big = 4000000000 found = 5450798171
+Oct 07 01:00:33   [0] Building negation
+Oct 07 01:01:17   [0] Sort inboxNegs
+Oct 07 01:03:05   [0] Finding matches
+Oct 07 01:06:54   [0] newly found: 398786760
+Oct 07 01:06:57 ------------------
+Oct 07 01:06:57 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2958788933 3:943593434 4:97059253 5:1005025 6:98
+Oct 07 01:06:57     [1] Status: inbox = 398786760 big = 4254595655 found = 2958788933
+Oct 07 01:06:57     [1] Building negation
+Oct 07 01:07:25     [1] Sort inboxNegs
+Oct 07 01:08:52     [1] Finding matches
+Oct 07 01:12:40     [1] newly found: 333595269
+Oct 07 01:12:42 ------------------
+Oct 07 01:12:42 Sizes: 0:4000000000(done) 1:4254595655(done) 2:2958788933 3:943593434 4:97059253 5:1005025 6:98
+Oct 07 01:12:42       [2] Status: inbox = 333595269 big = 2958788933 found = 943593434
+Oct 07 01:12:42       [2] Building negation
+Oct 07 01:13:02       [2] Sort inbox
+Oct 07 01:14:24       [2] Sort inboxNegs
+Oct 07 01:15:28       [2] Merging into big
+Oct 07 01:22:27       [2] Finding matches
+Oct 07 01:25:19       [2] newly found: 216319475
+Oct 07 01:25:21 ------------------
+Oct 07 01:25:21 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3292384202 3:943593434 4:97059253 5:1005025 6:98
+Oct 07 01:25:21         [3] Status: inbox = 216319475 big = 943593434 found = 97059253
+Oct 07 01:25:21         [3] Building negation
+Oct 07 01:25:29         [3] Sort inbox
+Oct 07 01:26:15         [3] Sort inboxNegs
+Oct 07 01:26:56         [3] Merging into big
+Oct 07 01:29:31         [3] Finding matches
+Oct 07 01:30:26         [3] newly found: 48943133
+Oct 07 01:30:29 ------------------
+Oct 07 01:30:29 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3292384202 3:1159912909 4:97059253 5:1005025 6:98
+Oct 07 01:30:29           [4] Status: inbox = 48943133 big = 97059253 found = 1005025
+Oct 07 01:30:29           [4] Building negation
+Oct 07 01:30:31           [4] Sort inbox
+Oct 07 01:30:35           [4] Sort inboxNegs
+Oct 07 01:30:40           [4] Merging into big
+Oct 07 01:30:59           [4] Finding matches
+Oct 07 01:31:05           [4] newly found: 1274594
+Oct 07 01:31:06 ------------------
+Oct 07 01:31:06 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3292384202 3:1159912909 4:146002386 5:1005025 6:98
+Oct 07 01:31:06             [5] Status: inbox = 1274594 big = 1005025 found = 98
+Oct 07 01:31:06             [5] Building negation
+Oct 07 01:31:06             [5] Sort inbox
+Oct 07 01:31:06             [5] Sort inboxNegs
+Oct 07 01:31:06             [5] Merging into big
+Oct 07 01:31:06             [5] Finding matches
+Oct 07 01:31:07             [5] newly found: 381
+Oct 07 01:31:07 ------------------
+Oct 07 01:31:07 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3292384202 3:1159912909 4:146002386 5:2279619 6:98
+Oct 07 01:31:07               [6] Status: inbox = 381 big = 98 found = 0
+Oct 07 01:31:07               [6] Building negation
+Oct 07 01:31:07               [6] Sort inbox
+Oct 07 01:31:07               [6] Sort inboxNegs
+Oct 07 01:31:07               [6] Merging into big
+Oct 07 01:31:07               [6] Finding matches
+Oct 07 01:31:07               [6] newly found: 0
+Oct 07 01:31:07 ------------------
+Oct 07 01:31:07 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3292384202 3:1159912909 4:146002386 5:2279619 6:479
+Oct 07 01:31:07 Generating 500000000 fresh hashes
+Oct 07 01:31:39   [0] Status: inbox = 500000000 big = 4000000000 found = 5849584931
+Oct 07 01:31:39   [0] Building negation
+Oct 07 01:32:20   [0] Sort inboxNegs
+Oct 07 01:34:25   [0] Finding matches
+Oct 07 01:38:11   [0] newly found: 398695533
+Oct 07 01:38:14 ------------------
+Oct 07 01:38:14 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3292384202 3:1159912909 4:146002386 5:2279619 6:479
+Oct 07 01:38:14     [1] Status: inbox = 398695533 big = 4254595655 found = 3292384202
+Oct 07 01:38:14     [1] Building negation
+Oct 07 01:38:41     [1] Sort inboxNegs
+Oct 07 01:40:01     [1] Finding matches
+Oct 07 01:43:51     [1] newly found: 333554181
+Oct 07 01:43:53 ------------------
+Oct 07 01:43:53 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3292384202 3:1159912909 4:146002386 5:2279619 6:479
+Oct 07 01:43:53       [2] Status: inbox = 333554181 big = 3292384202 found = 1159912909
+Oct 07 01:43:53       [2] Building negation
+Oct 07 01:44:10       [2] Sort inbox
+Oct 07 01:45:39       [2] Sort inboxNegs
+Oct 07 01:46:48       [2] Merging into big
+Oct 07 01:54:25       [2] Finding matches
+Oct 07 01:57:28       [2] newly found: 236486703
+Oct 07 01:57:30 ------------------
+Oct 07 01:57:30 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3625938383 3:1159912909 4:146002386 5:2279619 6:479
+Oct 07 01:57:30         [3] Status: inbox = 236486703 big = 1159912909 found = 146002386
+Oct 07 01:57:30         [3] Building negation
+Oct 07 01:57:40         [3] Sort inbox
+Oct 07 01:58:34         [3] Sort inboxNegs
+Oct 07 01:59:13         [3] Merging into big
+Oct 07 02:02:14         [3] Finding matches
+Oct 07 02:03:29         [3] newly found: 64459766
+Oct 07 02:03:32 ------------------
+Oct 07 02:03:32 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3625938383 3:1396399612 4:146002386 5:2279619 6:479
+Oct 07 02:03:32           [4] Status: inbox = 64459766 big = 146002386 found = 2279619
+Oct 07 02:03:32           [4] Building negation
+Oct 07 02:03:34           [4] Sort inbox
+Oct 07 02:03:40           [4] Sort inboxNegs
+Oct 07 02:03:46           [4] Merging into big
+Oct 07 02:04:13           [4] Finding matches
+Oct 07 02:04:22           [4] newly found: 2469399
+Oct 07 02:04:24 ------------------
+Oct 07 02:04:24 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3625938383 3:1396399612 4:210462152 5:2279619 6:479
+Oct 07 02:04:24             [5] Status: inbox = 2469399 big = 2279619 found = 479
+Oct 07 02:04:24             [5] Building negation
+Oct 07 02:04:24             [5] Sort inbox
+Oct 07 02:04:24             [5] Sort inboxNegs
+Oct 07 02:04:24             [5] Merging into big
+Oct 07 02:04:25             [5] Finding matches
+Oct 07 02:04:25             [5] newly found: 1750
+Oct 07 02:04:25 ------------------
+Oct 07 02:04:25 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3625938383 3:1396399612 4:210462152 5:4749018 6:479
+Oct 07 02:04:25               [6] Status: inbox = 1750 big = 479 found = 0
+Oct 07 02:04:25               [6] Building negation
+Oct 07 02:04:25               [6] Sort inbox
+Oct 07 02:04:25               [6] Sort inboxNegs
+Oct 07 02:04:25               [6] Merging into big
+Oct 07 02:04:25               [6] Finding matches
+Oct 07 02:04:25               [6] newly found: 0
+Oct 07 02:04:25 ------------------
+Oct 07 02:04:25 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3625938383 3:1396399612 4:210462152 5:4749018 6:2229
+Oct 07 02:04:25 Generating 500000000 fresh hashes
+Oct 07 02:04:59   [0] Status: inbox = 500000000 big = 4000000000 found = 6248280464
+Oct 07 02:04:59   [0] Building negation
+Oct 07 02:05:40   [0] Sort inboxNegs
+Oct 07 02:07:55   [0] Finding matches
+Oct 07 02:11:46   [0] newly found: 398741482
+Oct 07 02:11:48 ------------------
+Oct 07 02:11:48 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3625938383 3:1396399612 4:210462152 5:4749018 6:2229
+Oct 07 02:11:48     [1] Status: inbox = 398741482 big = 4254595655 found = 3625938383
+Oct 07 02:11:48     [1] Building negation
+Oct 07 02:12:15     [1] Sort inboxNegs
+Oct 07 02:13:26     [1] Finding matches
+Oct 07 02:17:16     [1] newly found: 333573910
+Oct 07 02:17:18 ------------------
+Oct 07 02:17:18 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3625938383 3:1396399612 4:210462152 5:4749018 6:2229
+Oct 07 02:17:18       [2] Status: inbox = 333573910 big = 3625938383 found = 1396399612
+Oct 07 02:17:18       [2] Building negation
+Oct 07 02:17:34       [2] Sort inbox
+Oct 07 02:19:03       [2] Sort inboxNegs
+Oct 07 02:20:11       [2] Merging into big
+Oct 07 02:28:38       [2] Finding matches
+Oct 07 02:31:56       [2] newly found: 256314489
+Oct 07 02:31:57 ------------------
+Oct 07 02:31:57 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3959512293 3:1396399612 4:210462152 5:4749018 6:2229
+Oct 07 02:31:57         [3] Status: inbox = 256314489 big = 1396399612 found = 210462152
+Oct 07 02:31:57         [3] Building negation
+Oct 07 02:32:08         [3] Sort inbox
+Oct 07 02:33:04         [3] Sort inboxNegs
+Oct 07 02:33:52         [3] Merging into big
+Oct 07 02:37:32         [3] Finding matches
+Oct 07 02:39:00         [3] newly found: 82671001
+Oct 07 02:39:03 ------------------
+Oct 07 02:39:03 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3959512293 3:1652714101 4:210462152 5:4749018 6:2229
+Oct 07 02:39:03           [4] Status: inbox = 82671001 big = 210462152 found = 4749018
+Oct 07 02:39:03           [4] Building negation
+Oct 07 02:39:05           [4] Sort inbox
+Oct 07 02:39:14           [4] Sort inboxNegs
+Oct 07 02:39:22           [4] Merging into big
+Oct 07 02:40:06           [4] Finding matches
+Oct 07 02:40:14           [4] newly found: 4469289
+Oct 07 02:40:16 ------------------
+Oct 07 02:40:16 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3959512293 3:1652714101 4:293133153 5:4749018 6:2229
+Oct 07 02:40:16             [5] Status: inbox = 4469289 big = 4749018 found = 2229
+Oct 07 02:40:16             [5] Building negation
+Oct 07 02:40:16             [5] Sort inbox
+Oct 07 02:40:16             [5] Sort inboxNegs
+Oct 07 02:40:17             [5] Merging into big
+Oct 07 02:40:17             [5] Finding matches
+Oct 07 02:40:18             [5] newly found: 6339
+Oct 07 02:40:18 ------------------
+Oct 07 02:40:18 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3959512293 3:1652714101 4:293133153 5:9218307 6:2229
+Oct 07 02:40:18               [6] Status: inbox = 6339 big = 2229 found = 0
+Oct 07 02:40:18               [6] Building negation
+Oct 07 02:40:18               [6] Sort inbox
+Oct 07 02:40:18               [6] Sort inboxNegs
+Oct 07 02:40:18               [6] Merging into big
+Oct 07 02:40:18               [6] Finding matches
+Oct 07 02:40:18               [6] newly found: 0
+Oct 07 02:40:18 ------------------
+Oct 07 02:40:18 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3959512293 3:1652714101 4:293133153 5:9218307 6:8568
+Oct 07 02:40:18 Generating 500000000 fresh hashes
+Oct 07 02:40:52   [0] Status: inbox = 500000000 big = 4000000000 found = 6647021946
+Oct 07 02:40:52   [0] Building negation
+Oct 07 02:41:38   [0] Sort inboxNegs
+Oct 07 02:43:46   [0] Finding matches
+Oct 07 02:47:34   [0] newly found: 398740550
+Oct 07 02:47:36 ------------------
+Oct 07 02:47:36 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3959512293 3:1652714101 4:293133153 5:9218307 6:8568
+Oct 07 02:47:36     [1] Status: inbox = 398740550 big = 4254595655 found = 3959512293
+Oct 07 02:47:36     [1] Building negation
+Oct 07 02:48:02     [1] Sort inboxNegs
+Oct 07 02:49:45     [1] Finding matches
+Oct 07 02:53:32     [1] newly found: 333562807
+Oct 07 02:53:34 ------------------
+Oct 07 02:53:34 Sizes: 0:4000000000(done) 1:4254595655(done) 2:3959512293 3:1652714101 4:293133153 5:9218307 6:8568
+Oct 07 02:53:34       [2] Status: inbox = 333562807 big = 3959512293 found = 1652714101
+Oct 07 02:53:34       [2] Building negation
+Oct 07 02:53:53       [2] Sort inbox
+Oct 07 02:55:16       [2] Sort inboxNegs
+Oct 07 02:56:23       [2] Merging into big
+Oct 07 03:05:23       [2] Finding matches
+Oct 07 03:08:54       [2] newly found: 275779781
+Oct 07 03:08:55 ------------------
+Oct 07 03:08:55 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:1652714101 4:293133153 5:9218307 6:8568
+Oct 07 03:08:55         [3] Status: inbox = 275779781 big = 1652714101 found = 293133153
+Oct 07 03:08:55         [3] Building negation
+Oct 07 03:09:09         [3] Sort inbox
+Oct 07 03:10:16         [3] Sort inboxNegs
+Oct 07 03:11:10         [3] Merging into big
+Oct 07 03:15:21         [3] Finding matches
+Oct 07 03:17:01         [3] newly found: 103518834
+Oct 07 03:17:03 ------------------
+Oct 07 03:17:03 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:1928493882 4:293133153 5:9218307 6:8568
+Oct 07 03:17:03           [4] Status: inbox = 103518834 big = 293133153 found = 9218307
+Oct 07 03:17:03           [4] Building negation
+Oct 07 03:17:06           [4] Sort inbox
+Oct 07 03:17:16           [4] Sort inboxNegs
+Oct 07 03:17:26           [4] Merging into big
+Oct 07 03:18:22           [4] Finding matches
+Oct 07 03:18:31           [4] newly found: 1972226
+Oct 07 03:18:32 ------------------
+Oct 07 03:18:32 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:1928493882 4:396651987 5:9218307 6:8568
+Oct 07 03:18:32             [5] Status: inbox = 1972226 big = 9218307 found = 8568
+Oct 07 03:18:32             [5] Building negation
+Oct 07 03:18:32             [5] Sort inbox
+Oct 07 03:18:32             [5] Sort inboxNegs
+Oct 07 03:18:33             [5] Merging into big
+Oct 07 03:18:34             [5] Finding matches
+Oct 07 03:18:34             [5] newly found: 3854
+Oct 07 03:18:34 ------------------
+Oct 07 03:18:34 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:1928493882 4:396651987 5:11190533 6:8568
+Oct 07 03:18:34               [6] Status: inbox = 3854 big = 8568 found = 0
+Oct 07 03:18:34               [6] Building negation
+Oct 07 03:18:34               [6] Sort inbox
+Oct 07 03:18:34               [6] Sort inboxNegs
+Oct 07 03:18:34               [6] Merging into big
+Oct 07 03:18:34               [6] Finding matches
+Oct 07 03:18:34               [6] newly found: 0
+Oct 07 03:18:34 ------------------
+Oct 07 03:18:34 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:1928493882 4:396651987 5:11190533 6:12422
+Oct 07 03:18:34 Generating 500000000 fresh hashes
+Oct 07 03:19:05   [0] Status: inbox = 500000000 big = 4000000000 found = 7045762496
+Oct 07 03:19:05   [0] Building negation
+Oct 07 03:19:47   [0] Sort inboxNegs
+Oct 07 03:22:02   [0] Finding matches
+Oct 07 03:25:55   [0] newly found: 398718957
+Oct 07 03:25:57 ------------------
+Oct 07 03:25:57 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:1928493882 4:396651987 5:11190533 6:12422
+Oct 07 03:25:57     [1] Status: inbox = 398718957 big = 4254595655 found = 4293075100
+Oct 07 03:25:57     [1] Building negation
+Oct 07 03:26:19     [1] Sort inboxNegs
+Oct 07 03:27:54     [1] Finding matches
+Oct 07 03:31:42     [1] newly found: 333549605
+Oct 07 03:31:44 ------------------
+Oct 07 03:31:44 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:1928493882 4:396651987 5:11190533 6:12422
+Oct 07 03:31:44       [2] Status: inbox = 333549605 big = 4293075100 found = 1928493882
+Oct 07 03:31:44       [2] Building negation
+Oct 07 03:32:04       [2] Sort inboxNegs
+Oct 07 03:33:04       [2] Finding matches
+Oct 07 03:36:43       [2] newly found: 275773110
+Oct 07 03:36:44 ------------------
+Oct 07 03:36:44 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:1928493882 4:396651987 5:11190533 6:12422
+Oct 07 03:36:44         [3] Status: inbox = 275773110 big = 1928493882 found = 396651987
+Oct 07 03:36:44         [3] Building negation
+Oct 07 03:36:56         [3] Sort inbox
+Oct 07 03:38:02         [3] Sort inboxNegs
+Oct 07 03:38:53         [3] Merging into big
+Oct 07 03:43:31         [3] Finding matches
+Oct 07 03:45:21         [3] newly found: 120074792
+Oct 07 03:45:23 ------------------
+Oct 07 03:45:23 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2204266992 4:396651987 5:11190533 6:12422
+Oct 07 03:45:23           [4] Status: inbox = 120074792 big = 396651987 found = 11190533
+Oct 07 03:45:23           [4] Building negation
+Oct 07 03:45:26           [4] Sort inbox
+Oct 07 03:45:38           [4] Sort inboxNegs
+Oct 07 03:45:49           [4] Merging into big
+Oct 07 03:47:04           [4] Finding matches
+Oct 07 03:47:22           [4] newly found: 11817679
+Oct 07 03:47:25 ------------------
+Oct 07 03:47:26 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2204266992 4:516726779 5:11190533 6:12422
+Oct 07 03:47:26             [5] Status: inbox = 11817679 big = 11190533 found = 12422
+Oct 07 03:47:26             [5] Building negation
+Oct 07 03:47:26             [5] Sort inbox
+Oct 07 03:47:27             [5] Sort inboxNegs
+Oct 07 03:47:28             [5] Merging into big
+Oct 07 03:47:31             [5] Finding matches
+Oct 07 03:47:32             [5] newly found: 46609
+Oct 07 03:47:32 ------------------
+Oct 07 03:47:32 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2204266992 4:516726779 5:23008212 6:12422
+Oct 07 03:47:32               [6] Status: inbox = 46609 big = 12422 found = 0
+Oct 07 03:47:32               [6] Building negation
+Oct 07 03:47:32               [6] Sort inbox
+Oct 07 03:47:32               [6] Sort inboxNegs
+Oct 07 03:47:32               [6] Merging into big
+Oct 07 03:47:32               [6] Finding matches
+Oct 07 03:47:32               [6] newly found: 0
+Oct 07 03:47:32 ------------------
+Oct 07 03:47:32 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2204266992 4:516726779 5:23008212 6:59031
+Oct 07 03:47:32 Generating 500000000 fresh hashes
+Oct 07 03:48:07   [0] Status: inbox = 500000000 big = 4000000000 found = 7444481453
+Oct 07 03:48:07   [0] Building negation
+Oct 07 03:48:49   [0] Sort inboxNegs
+Oct 07 03:50:52   [0] Finding matches
+Oct 07 03:54:42   [0] newly found: 398701177
+Oct 07 03:54:45 ------------------
+Oct 07 03:54:45 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2204266992 4:516726779 5:23008212 6:59031
+Oct 07 03:54:45     [1] Status: inbox = 398701177 big = 4254595655 found = 4626624705
+Oct 07 03:54:45     [1] Building negation
+Oct 07 03:55:08     [1] Sort inboxNegs
+Oct 07 03:56:36     [1] Finding matches
+Oct 07 04:00:23     [1] newly found: 333557633
+Oct 07 04:00:26 ------------------
+Oct 07 04:00:26 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2204266992 4:516726779 5:23008212 6:59031
+Oct 07 04:00:26       [2] Status: inbox = 333557633 big = 4293075100 found = 2204266992
+Oct 07 04:00:26       [2] Building negation
+Oct 07 04:00:42       [2] Sort inboxNegs
+Oct 07 04:01:34       [2] Finding matches
+Oct 07 04:05:13       [2] newly found: 275768062
+Oct 07 04:05:14 ------------------
+Oct 07 04:05:14 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2204266992 4:516726779 5:23008212 6:59031
+Oct 07 04:05:14         [3] Status: inbox = 275768062 big = 2204266992 found = 516726779
+Oct 07 04:05:14         [3] Building negation
+Oct 07 04:05:27         [3] Sort inbox
+Oct 07 04:06:34         [3] Sort inboxNegs
+Oct 07 04:07:26         [3] Merging into big
+Oct 07 04:12:54         [3] Finding matches
+Oct 07 04:15:00         [3] newly found: 134486836
+Oct 07 04:15:02 ------------------
+Oct 07 04:15:02 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2480035054 4:516726779 5:23008212 6:59031
+Oct 07 04:15:02           [4] Status: inbox = 134486836 big = 516726779 found = 23008212
+Oct 07 04:15:02           [4] Building negation
+Oct 07 04:15:06           [4] Sort inbox
+Oct 07 04:15:20           [4] Sort inboxNegs
+Oct 07 04:15:32           [4] Merging into big
+Oct 07 04:17:04           [4] Finding matches
+Oct 07 04:17:21           [4] newly found: 16800778
+Oct 07 04:17:23 ------------------
+Oct 07 04:17:23 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2480035054 4:651213615 5:23008212 6:59031
+Oct 07 04:17:23             [5] Status: inbox = 16800778 big = 23008212 found = 59031
+Oct 07 04:17:23             [5] Building negation
+Oct 07 04:17:24             [5] Sort inbox
+Oct 07 04:17:25             [5] Sort inboxNegs
+Oct 07 04:17:27             [5] Merging into big
+Oct 07 04:17:32             [5] Finding matches
+Oct 07 04:17:33             [5] newly found: 114465
+Oct 07 04:17:34 ------------------
+Oct 07 04:17:34 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2480035054 4:651213615 5:39808990 6:59031
+Oct 07 04:17:34               [6] Status: inbox = 114465 big = 59031 found = 0
+Oct 07 04:17:34               [6] Building negation
+Oct 07 04:17:34               [6] Sort inbox
+Oct 07 04:17:34               [6] Sort inboxNegs
+Oct 07 04:17:34               [6] Merging into big
+Oct 07 04:17:34               [6] Finding matches
+Oct 07 04:17:34               [6] newly found: 1
+Oct 07 04:17:34 ------------------
+Oct 07 04:17:34 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2480035054 4:651213615 5:39808990 6:173496
+Oct 07 04:17:34                 [7] Status: inbox = 1 big = 0 found = 0
+Oct 07 04:17:34                 [7] Building negation
+Oct 07 04:17:34                 [7] Sort inbox
+Oct 07 04:17:34                 [7] Sort inboxNegs
+Oct 07 04:17:34                 [7] Moving inbox to big
+Oct 07 04:17:34                 [7] Finding matches
+Oct 07 04:17:34                 [7] newly found: 0
+Oct 07 04:17:34 ------------------
+Oct 07 04:17:34 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2480035054 4:651213615 5:39808990 6:173496 7:1
+Oct 07 04:17:34 Generating 500000000 fresh hashes
+Oct 07 04:18:09   [0] Status: inbox = 500000000 big = 4000000000 found = 7843182630
+Oct 07 04:18:09   [0] Building negation
+Oct 07 04:18:54   [0] Sort inboxNegs
+Oct 07 04:20:58   [0] Finding matches
+Oct 07 04:24:48   [0] newly found: 398712890
+Oct 07 04:24:51 ------------------
+Oct 07 04:24:51 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2480035054 4:651213615 5:39808990 6:173496 7:1
+Oct 07 04:24:51     [1] Status: inbox = 398712890 big = 4254595655 found = 4960182338
+Oct 07 04:24:51     [1] Building negation
+Oct 07 04:25:16     [1] Sort inboxNegs
+Oct 07 04:26:49     [1] Finding matches
+Oct 07 04:30:35     [1] newly found: 333557894
+Oct 07 04:30:37 ------------------
+Oct 07 04:30:37 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2480035054 4:651213615 5:39808990 6:173496 7:1
+Oct 07 04:30:37       [2] Status: inbox = 333557894 big = 4293075100 found = 2480035054
+Oct 07 04:30:37       [2] Building negation
+Oct 07 04:30:54       [2] Sort inboxNegs
+Oct 07 04:31:52       [2] Finding matches
+Oct 07 04:35:29       [2] newly found: 275773967
+Oct 07 04:35:31 ------------------
+Oct 07 04:35:31 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2480035054 4:651213615 5:39808990 6:173496 7:1
+Oct 07 04:35:31         [3] Status: inbox = 275773967 big = 2480035054 found = 651213615
+Oct 07 04:35:31         [3] Building negation
+Oct 07 04:35:43         [3] Sort inbox
+Oct 07 04:36:49         [3] Sort inboxNegs
+Oct 07 04:37:41         [3] Merging into big
+Oct 07 04:43:31         [3] Finding matches
+Oct 07 04:45:49         [3] newly found: 148731753
+Oct 07 04:45:51 ------------------
+Oct 07 04:45:51 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2755809021 4:651213615 5:39808990 6:173496 7:1
+Oct 07 04:45:51           [4] Status: inbox = 148731753 big = 651213615 found = 39808990
+Oct 07 04:45:51           [4] Building negation
+Oct 07 04:45:56           [4] Sort inbox
+Oct 07 04:46:17           [4] Sort inboxNegs
+Oct 07 04:46:30           [4] Merging into big
+Oct 07 04:48:18           [4] Finding matches
+Oct 07 04:48:46           [4] newly found: 22969377
+Oct 07 04:48:50 ------------------
+Oct 07 04:48:50 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2755809021 4:799945368 5:39808990 6:173496 7:1
+Oct 07 04:48:50             [5] Status: inbox = 22969377 big = 39808990 found = 173496
+Oct 07 04:48:50             [5] Building negation
+Oct 07 04:48:51             [5] Sort inbox
+Oct 07 04:48:53             [5] Sort inboxNegs
+Oct 07 04:48:55             [5] Merging into big
+Oct 07 04:49:02             [5] Finding matches
+Oct 07 04:49:04             [5] newly found: 254530
+Oct 07 04:49:05 ------------------
+Oct 07 04:49:05 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2755809021 4:799945368 5:62778367 6:173496 7:1
+Oct 07 04:49:05               [6] Status: inbox = 254530 big = 173496 found = 1
+Oct 07 04:49:05               [6] Building negation
+Oct 07 04:49:05               [6] Sort inbox
+Oct 07 04:49:05               [6] Sort inboxNegs
+Oct 07 04:49:05               [6] Merging into big
+Oct 07 04:49:05               [6] Finding matches
+Oct 07 04:49:05               [6] newly found: 9
+Oct 07 04:49:05 ------------------
+Oct 07 04:49:05 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2755809021 4:799945368 5:62778367 6:428026 7:1
+Oct 07 04:49:05                 [7] Status: inbox = 9 big = 1 found = 0
+Oct 07 04:49:05                 [7] Building negation
+Oct 07 04:49:05                 [7] Sort inbox
+Oct 07 04:49:05                 [7] Sort inboxNegs
+Oct 07 04:49:05                 [7] Merging into big
+Oct 07 04:49:05                 [7] Finding matches
+Oct 07 04:49:05                 [7] newly found: 0
+Oct 07 04:49:05 ------------------
+Oct 07 04:49:05 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2755809021 4:799945368 5:62778367 6:428026 7:10
+Oct 07 04:49:05 Generating 500000000 fresh hashes
+Oct 07 04:49:41   [0] Status: inbox = 500000000 big = 4000000000 found = 8241895520
+Oct 07 04:49:41   [0] Building negation
+Oct 07 04:50:27   [0] Sort inboxNegs
+Oct 07 04:52:33   [0] Finding matches
+Oct 07 04:56:25   [0] newly found: 398723393
+Oct 07 04:56:27 ------------------
+Oct 07 04:56:27 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2755809021 4:799945368 5:62778367 6:428026 7:10
+Oct 07 04:56:27     [1] Status: inbox = 398723393 big = 4254595655 found = 5293740232
+Oct 07 04:56:27     [1] Building negation
+Oct 07 04:56:53     [1] Sort inboxNegs
+Oct 07 04:58:14     [1] Finding matches
+Oct 07 05:01:59     [1] newly found: 333569551
+Oct 07 05:02:02 ------------------
+Oct 07 05:02:02 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2755809021 4:799945368 5:62778367 6:428026 7:10
+Oct 07 05:02:02       [2] Status: inbox = 333569551 big = 4293075100 found = 2755809021
+Oct 07 05:02:02       [2] Building negation
+Oct 07 05:02:22       [2] Sort inboxNegs
+Oct 07 05:03:10       [2] Finding matches
+Oct 07 05:06:47       [2] newly found: 275773436
+Oct 07 05:06:49 ------------------
+Oct 07 05:06:49 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:2755809021 4:799945368 5:62778367 6:428026 7:10
+Oct 07 05:06:49         [3] Status: inbox = 275773436 big = 2755809021 found = 799945368
+Oct 07 05:06:49         [3] Building negation
+Oct 07 05:07:01         [3] Sort inbox
+Oct 07 05:08:04         [3] Sort inboxNegs
+Oct 07 05:08:51         [3] Merging into big
+Oct 07 05:15:13         [3] Finding matches
+Oct 07 05:17:42         [3] newly found: 162652256
+Oct 07 05:17:44 ------------------
+Oct 07 05:17:44 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3031582457 4:799945368 5:62778367 6:428026 7:10
+Oct 07 05:17:44           [4] Status: inbox = 162652256 big = 799945368 found = 62778367
+Oct 07 05:17:44           [4] Building negation
+Oct 07 05:17:50           [4] Sort inbox
+Oct 07 05:18:17           [4] Sort inboxNegs
+Oct 07 05:18:37           [4] Merging into big
+Oct 07 05:20:51           [4] Finding matches
+Oct 07 05:21:20           [4] newly found: 30334018
+Oct 07 05:21:22 ------------------
+Oct 07 05:21:22 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3031582457 4:962597624 5:62778367 6:428026 7:10
+Oct 07 05:21:22             [5] Status: inbox = 30334018 big = 62778367 found = 428026
+Oct 07 05:21:22             [5] Building negation
+Oct 07 05:21:23             [5] Sort inbox
+Oct 07 05:21:25             [5] Sort inboxNegs
+Oct 07 05:21:27             [5] Merging into big
+Oct 07 05:21:38             [5] Finding matches
+Oct 07 05:21:40             [5] newly found: 506390
+Oct 07 05:21:40 ------------------
+Oct 07 05:21:40 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3031582457 4:962597624 5:93112385 6:428026 7:10
+Oct 07 05:21:40               [6] Status: inbox = 506390 big = 428026 found = 10
+Oct 07 05:21:40               [6] Building negation
+Oct 07 05:21:40               [6] Sort inbox
+Oct 07 05:21:40               [6] Sort inboxNegs
+Oct 07 05:21:40               [6] Merging into big
+Oct 07 05:21:40               [6] Finding matches
+Oct 07 05:21:40               [6] newly found: 70
+Oct 07 05:21:40 ------------------
+Oct 07 05:21:40 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3031582457 4:962597624 5:93112385 6:934416 7:10
+Oct 07 05:21:40                 [7] Status: inbox = 70 big = 10 found = 0
+Oct 07 05:21:40                 [7] Building negation
+Oct 07 05:21:40                 [7] Sort inbox
+Oct 07 05:21:40                 [7] Sort inboxNegs
+Oct 07 05:21:40                 [7] Merging into big
+Oct 07 05:21:40                 [7] Finding matches
+Oct 07 05:21:40                 [7] newly found: 0
+Oct 07 05:21:40 ------------------
+Oct 07 05:21:40 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3031582457 4:962597624 5:93112385 6:934416 7:80
+Oct 07 05:21:40 Generating 500000000 fresh hashes
+Oct 07 05:22:19   [0] Status: inbox = 500000000 big = 4000000000 found = 8640618913
+Oct 07 05:22:19   [0] Building negation
+Oct 07 05:23:04   [0] Sort inboxNegs
+Oct 07 05:25:03   [0] Finding matches
+Oct 07 05:28:51   [0] newly found: 398711939
+Oct 07 05:28:54 ------------------
+Oct 07 05:28:54 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3031582457 4:962597624 5:93112385 6:934416 7:80
+Oct 07 05:28:54     [1] Status: inbox = 398711939 big = 4254595655 found = 5627309783
+Oct 07 05:28:54     [1] Building negation
+Oct 07 05:29:18     [1] Sort inboxNegs
+Oct 07 05:30:41     [1] Finding matches
+Oct 07 05:34:31     [1] newly found: 333545314
+Oct 07 05:34:33 ------------------
+Oct 07 05:34:33 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3031582457 4:962597624 5:93112385 6:934416 7:80
+Oct 07 05:34:33       [2] Status: inbox = 333545314 big = 4293075100 found = 3031582457
+Oct 07 05:34:33       [2] Building negation
+Oct 07 05:34:51       [2] Sort inboxNegs
+Oct 07 05:35:51       [2] Finding matches
+Oct 07 05:39:30       [2] newly found: 275769369
+Oct 07 05:39:32 ------------------
+Oct 07 05:39:32 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3031582457 4:962597624 5:93112385 6:934416 7:80
+Oct 07 05:39:32         [3] Status: inbox = 275769369 big = 3031582457 found = 962597624
+Oct 07 05:39:32         [3] Building negation
+Oct 07 05:39:44         [3] Sort inbox
+Oct 07 05:40:51         [3] Sort inboxNegs
+Oct 07 05:41:39         [3] Merging into big
+Oct 07 05:48:50         [3] Finding matches
+Oct 07 05:51:28         [3] newly found: 176438787
+Oct 07 05:51:29 ------------------
+Oct 07 05:51:29 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3307351826 4:962597624 5:93112385 6:934416 7:80
+Oct 07 05:51:29           [4] Status: inbox = 176438787 big = 962597624 found = 93112385
+Oct 07 05:51:29           [4] Building negation
+Oct 07 05:51:36           [4] Sort inbox
+Oct 07 05:52:06           [4] Sort inboxNegs
+Oct 07 05:52:27           [4] Merging into big
+Oct 07 05:55:02           [4] Finding matches
+Oct 07 05:55:45           [4] newly found: 39019302
+Oct 07 05:55:47 ------------------
+Oct 07 05:55:47 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3307351826 4:1139036411 5:93112385 6:934416 7:80
+Oct 07 05:55:47             [5] Status: inbox = 39019302 big = 93112385 found = 934416
+Oct 07 05:55:47             [5] Building negation
+Oct 07 05:55:48             [5] Sort inbox
+Oct 07 05:55:50             [5] Sort inboxNegs
+Oct 07 05:55:53             [5] Merging into big
+Oct 07 05:56:08             [5] Finding matches
+Oct 07 05:56:14             [5] newly found: 937404
+Oct 07 05:56:15 ------------------
+Oct 07 05:56:15 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3307351826 4:1139036411 5:132131687 6:934416 7:80
+Oct 07 05:56:15               [6] Status: inbox = 937404 big = 934416 found = 80
+Oct 07 05:56:15               [6] Building negation
+Oct 07 05:56:15               [6] Sort inbox
+Oct 07 05:56:15               [6] Sort inboxNegs
+Oct 07 05:56:15               [6] Merging into big
+Oct 07 05:56:15               [6] Finding matches
+Oct 07 05:56:15               [6] newly found: 260
+Oct 07 05:56:15 ------------------
+Oct 07 05:56:15 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3307351826 4:1139036411 5:132131687 6:1871820 7:80
+Oct 07 05:56:15                 [7] Status: inbox = 260 big = 80 found = 0
+Oct 07 05:56:15                 [7] Building negation
+Oct 07 05:56:15                 [7] Sort inbox
+Oct 07 05:56:15                 [7] Sort inboxNegs
+Oct 07 05:56:15                 [7] Merging into big
+Oct 07 05:56:15                 [7] Finding matches
+Oct 07 05:56:15                 [7] newly found: 0
+Oct 07 05:56:15 ------------------
+Oct 07 05:56:15 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3307351826 4:1139036411 5:132131687 6:1871820 7:340
+Oct 07 05:56:15 Generating 500000000 fresh hashes
+Oct 07 05:56:50   [0] Status: inbox = 500000000 big = 4000000000 found = 9039330852
+Oct 07 05:56:50   [0] Building negation
+Oct 07 05:57:31   [0] Sort inboxNegs
+Oct 07 05:59:33   [0] Finding matches
+Oct 07 06:03:24   [0] newly found: 398710893
+Oct 07 06:03:27 ------------------
+Oct 07 06:03:27 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3307351826 4:1139036411 5:132131687 6:1871820 7:340
+Oct 07 06:03:27     [1] Status: inbox = 398710893 big = 4254595655 found = 5960855097
+Oct 07 06:03:27     [1] Building negation
+Oct 07 06:03:49     [1] Sort inboxNegs
+Oct 07 06:05:18     [1] Finding matches
+Oct 07 06:09:02     [1] newly found: 333566013
+Oct 07 06:09:04 ------------------
+Oct 07 06:09:04 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3307351826 4:1139036411 5:132131687 6:1871820 7:340
+Oct 07 06:09:04       [2] Status: inbox = 333566013 big = 4293075100 found = 3307351826
+Oct 07 06:09:04       [2] Building negation
+Oct 07 06:09:23       [2] Sort inboxNegs
+Oct 07 06:10:22       [2] Finding matches
+Oct 07 06:14:01       [2] newly found: 275779277
+Oct 07 06:14:03 ------------------
+Oct 07 06:14:03 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3307351826 4:1139036411 5:132131687 6:1871820 7:340
+Oct 07 06:14:03         [3] Status: inbox = 275779277 big = 3307351826 found = 1139036411
+Oct 07 06:14:03         [3] Building negation
+Oct 07 06:14:15         [3] Sort inbox
+Oct 07 06:15:22         [3] Sort inboxNegs
+Oct 07 06:16:16         [3] Merging into big
+Oct 07 06:23:45         [3] Finding matches
+Oct 07 06:26:43         [3] newly found: 189979501
+Oct 07 06:26:45 ------------------
+Oct 07 06:26:45 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3583131103 4:1139036411 5:132131687 6:1871820 7:340
+Oct 07 06:26:45           [4] Status: inbox = 189979501 big = 1139036411 found = 132131687
+Oct 07 06:26:45           [4] Building negation
+Oct 07 06:26:51           [4] Sort inbox
+Oct 07 06:27:36           [4] Sort inboxNegs
+Oct 07 06:28:06           [4] Merging into big
+Oct 07 06:31:01           [4] Finding matches
+Oct 07 06:32:08           [4] newly found: 49025177
+Oct 07 06:32:11 ------------------
+Oct 07 06:32:11 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3583131103 4:1329015912 5:132131687 6:1871820 7:340
+Oct 07 06:32:11             [5] Status: inbox = 49025177 big = 132131687 found = 1871820
+Oct 07 06:32:11             [5] Building negation
+Oct 07 06:32:12             [5] Sort inbox
+Oct 07 06:32:17             [5] Sort inboxNegs
+Oct 07 06:32:22             [5] Merging into big
+Oct 07 06:32:46             [5] Finding matches
+Oct 07 06:32:51             [5] newly found: 1633435
+Oct 07 06:32:52 ------------------
+Oct 07 06:32:52 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3583131103 4:1329015912 5:181156864 6:1871820 7:340
+Oct 07 06:32:52               [6] Status: inbox = 1633435 big = 1871820 found = 340
+Oct 07 06:32:52               [6] Building negation
+Oct 07 06:32:52               [6] Sort inbox
+Oct 07 06:32:52               [6] Sort inboxNegs
+Oct 07 06:32:52               [6] Merging into big
+Oct 07 06:32:52               [6] Finding matches
+Oct 07 06:32:52               [6] newly found: 940
+Oct 07 06:32:52 ------------------
+Oct 07 06:32:52 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3583131103 4:1329015912 5:181156864 6:3505255 7:340
+Oct 07 06:32:52                 [7] Status: inbox = 940 big = 340 found = 0
+Oct 07 06:32:52                 [7] Building negation
+Oct 07 06:32:52                 [7] Sort inbox
+Oct 07 06:32:52                 [7] Sort inboxNegs
+Oct 07 06:32:52                 [7] Merging into big
+Oct 07 06:32:52                 [7] Finding matches
+Oct 07 06:32:52                 [7] newly found: 0
+Oct 07 06:32:52 ------------------
+Oct 07 06:32:52 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3583131103 4:1329015912 5:181156864 6:3505255 7:1280
+Oct 07 06:32:52 Generating 500000000 fresh hashes
+Oct 07 06:33:27   [0] Status: inbox = 500000000 big = 4000000000 found = 9438041745
+Oct 07 06:33:27   [0] Building negation
+Oct 07 06:34:11   [0] Sort inboxNegs
+Oct 07 06:36:36   [0] Finding matches
+Oct 07 06:40:25   [0] newly found: 398743263
+Oct 07 06:40:28 ------------------
+Oct 07 06:40:28 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3583131103 4:1329015912 5:181156864 6:3505255 7:1280
+Oct 07 06:40:28     [1] Status: inbox = 398743263 big = 4254595655 found = 6294421110
+Oct 07 06:40:28     [1] Building negation
+Oct 07 06:40:53     [1] Sort inboxNegs
+Oct 07 06:42:10     [1] Finding matches
+Oct 07 06:46:00     [1] newly found: 333579594
+Oct 07 06:46:03 ------------------
+Oct 07 06:46:03 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3583131103 4:1329015912 5:181156864 6:3505255 7:1280
+Oct 07 06:46:03       [2] Status: inbox = 333579594 big = 4293075100 found = 3583131103
+Oct 07 06:46:03       [2] Building negation
+Oct 07 06:46:22       [2] Sort inboxNegs
+Oct 07 06:47:22       [2] Finding matches
+Oct 07 06:51:04       [2] newly found: 275793041
+Oct 07 06:51:06 ------------------
+Oct 07 06:51:06 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3583131103 4:1329015912 5:181156864 6:3505255 7:1280
+Oct 07 06:51:06         [3] Status: inbox = 275793041 big = 3583131103 found = 1329015912
+Oct 07 06:51:06         [3] Building negation
+Oct 07 06:51:17         [3] Sort inbox
+Oct 07 06:52:19         [3] Sort inboxNegs
+Oct 07 06:53:09         [3] Merging into big
+Oct 07 07:01:04         [3] Finding matches
+Oct 07 07:04:13         [3] newly found: 203355774
+Oct 07 07:04:14 ------------------
+Oct 07 07:04:14 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3858924144 4:1329015912 5:181156864 6:3505255 7:1280
+Oct 07 07:04:14           [4] Status: inbox = 203355774 big = 1329015912 found = 181156864
+Oct 07 07:04:14           [4] Building negation
+Oct 07 07:04:21           [4] Sort inbox
+Oct 07 07:05:00           [4] Sort inboxNegs
+Oct 07 07:05:32           [4] Merging into big
+Oct 07 07:08:51           [4] Finding matches
+Oct 07 07:10:08           [4] newly found: 60450975
+Oct 07 07:10:11 ------------------
+Oct 07 07:10:11 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3858924144 4:1532371686 5:181156864 6:3505255 7:1280
+Oct 07 07:10:11             [5] Status: inbox = 60450975 big = 181156864 found = 3505255
+Oct 07 07:10:11             [5] Building negation
+Oct 07 07:10:12             [5] Sort inbox
+Oct 07 07:10:17             [5] Sort inboxNegs
+Oct 07 07:10:22             [5] Merging into big
+Oct 07 07:10:55             [5] Finding matches
+Oct 07 07:11:01             [5] newly found: 2712131
+Oct 07 07:11:03 ------------------
+Oct 07 07:11:03 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3858924144 4:1532371686 5:241607839 6:3505255 7:1280
+Oct 07 07:11:03               [6] Status: inbox = 2712131 big = 3505255 found = 1280
+Oct 07 07:11:03               [6] Building negation
+Oct 07 07:11:03               [6] Sort inbox
+Oct 07 07:11:03               [6] Sort inboxNegs
+Oct 07 07:11:04               [6] Merging into big
+Oct 07 07:11:04               [6] Finding matches
+Oct 07 07:11:05               [6] newly found: 2758
+Oct 07 07:11:05 ------------------
+Oct 07 07:11:05 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3858924144 4:1532371686 5:241607839 6:6217386 7:1280
+Oct 07 07:11:05                 [7] Status: inbox = 2758 big = 1280 found = 0
+Oct 07 07:11:05                 [7] Building negation
+Oct 07 07:11:05                 [7] Sort inbox
+Oct 07 07:11:05                 [7] Sort inboxNegs
+Oct 07 07:11:05                 [7] Merging into big
+Oct 07 07:11:05                 [7] Finding matches
+Oct 07 07:11:05                 [7] newly found: 0
+Oct 07 07:11:05 ------------------
+Oct 07 07:11:05 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3858924144 4:1532371686 5:241607839 6:6217386 7:4038
+Oct 07 07:11:05 Generating 500000000 fresh hashes
+Oct 07 07:11:36   [0] Status: inbox = 500000000 big = 4000000000 found = 9836785008
+Oct 07 07:11:36   [0] Building negation
+Oct 07 07:12:20   [0] Sort inboxNegs
+Oct 07 07:14:39   [0] Finding matches
+Oct 07 07:18:25   [0] newly found: 398740291
+Oct 07 07:18:28 ------------------
+Oct 07 07:18:28 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3858924144 4:1532371686 5:241607839 6:6217386 7:4038
+Oct 07 07:18:28     [1] Status: inbox = 398740291 big = 4254595655 found = 6628000704
+Oct 07 07:18:28     [1] Building negation
+Oct 07 07:18:53     [1] Sort inboxNegs
+Oct 07 07:20:15     [1] Finding matches
+Oct 07 07:23:59     [1] newly found: 333556395
+Oct 07 07:24:01 ------------------
+Oct 07 07:24:01 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3858924144 4:1532371686 5:241607839 6:6217386 7:4038
+Oct 07 07:24:01       [2] Status: inbox = 333556395 big = 4293075100 found = 3858924144
+Oct 07 07:24:01       [2] Building negation
+Oct 07 07:24:19       [2] Sort inboxNegs
+Oct 07 07:25:09       [2] Finding matches
+Oct 07 07:28:50       [2] newly found: 275779328
+Oct 07 07:28:51 ------------------
+Oct 07 07:28:51 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:3858924144 4:1532371686 5:241607839 6:6217386 7:4038
+Oct 07 07:28:51         [3] Status: inbox = 275779328 big = 3858924144 found = 1532371686
+Oct 07 07:28:51         [3] Building negation
+Oct 07 07:29:04         [3] Sort inbox
+Oct 07 07:30:13         [3] Sort inboxNegs
+Oct 07 07:31:00         [3] Merging into big
+Oct 07 07:39:30         [3] Finding matches
+Oct 07 07:42:47         [3] newly found: 216479398
+Oct 07 07:42:48 ------------------
+Oct 07 07:42:48 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:1532371686 5:241607839 6:6217386 7:4038
+Oct 07 07:42:48           [4] Status: inbox = 216479398 big = 1532371686 found = 241607839
+Oct 07 07:42:48           [4] Building negation
+Oct 07 07:42:56           [4] Sort inbox
+Oct 07 07:43:41           [4] Sort inboxNegs
+Oct 07 07:44:20           [4] Merging into big
+Oct 07 07:48:11           [4] Finding matches
+Oct 07 07:49:39           [4] newly found: 73300444
+Oct 07 07:49:41 ------------------
+Oct 07 07:49:41 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:1748851084 5:241607839 6:6217386 7:4038
+Oct 07 07:49:41             [5] Status: inbox = 73300444 big = 241607839 found = 6217386
+Oct 07 07:49:41             [5] Building negation
+Oct 07 07:49:43             [5] Sort inbox
+Oct 07 07:49:49             [5] Sort inboxNegs
+Oct 07 07:49:56             [5] Merging into big
+Oct 07 07:50:39             [5] Finding matches
+Oct 07 07:50:49             [5] newly found: 4318561
+Oct 07 07:50:50 ------------------
+Oct 07 07:50:50 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:1748851084 5:314908283 6:6217386 7:4038
+Oct 07 07:50:50               [6] Status: inbox = 4318561 big = 6217386 found = 4038
+Oct 07 07:50:50               [6] Building negation
+Oct 07 07:50:50               [6] Sort inbox
+Oct 07 07:50:51               [6] Sort inboxNegs
+Oct 07 07:50:51               [6] Merging into big
+Oct 07 07:50:52               [6] Finding matches
+Oct 07 07:50:52               [6] newly found: 7517
+Oct 07 07:50:52 ------------------
+Oct 07 07:50:52 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:1748851084 5:314908283 6:10535947 7:4038
+Oct 07 07:50:52                 [7] Status: inbox = 7517 big = 4038 found = 0
+Oct 07 07:50:52                 [7] Building negation
+Oct 07 07:50:52                 [7] Sort inbox
+Oct 07 07:50:52                 [7] Sort inboxNegs
+Oct 07 07:50:52                 [7] Merging into big
+Oct 07 07:50:52                 [7] Finding matches
+Oct 07 07:50:52                 [7] newly found: 0
+Oct 07 07:50:52 ------------------
+Oct 07 07:50:52 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:1748851084 5:314908283 6:10535947 7:11555
+Oct 07 07:50:52 Generating 500000000 fresh hashes
+Oct 07 07:51:25   [0] Status: inbox = 500000000 big = 4000000000 found = 10235525299
+Oct 07 07:51:25   [0] Building negation
+Oct 07 07:52:11   [0] Sort inboxNegs
+Oct 07 07:54:24   [0] Finding matches
+Oct 07 07:58:15   [0] newly found: 398730999
+Oct 07 07:58:18 ------------------
+Oct 07 07:58:18 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:1748851084 5:314908283 6:10535947 7:11555
+Oct 07 07:58:18     [1] Status: inbox = 398730999 big = 4254595655 found = 6961557099
+Oct 07 07:58:18     [1] Building negation
+Oct 07 07:58:43     [1] Sort inboxNegs
+Oct 07 08:00:01     [1] Finding matches
+Oct 07 08:03:50     [1] newly found: 333581635
+Oct 07 08:03:52 ------------------
+Oct 07 08:03:52 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:1748851084 5:314908283 6:10535947 7:11555
+Oct 07 08:03:52       [2] Status: inbox = 333581635 big = 4293075100 found = 4134703472
+Oct 07 08:03:52       [2] Building negation
+Oct 07 08:04:09       [2] Sort inboxNegs
+Oct 07 08:04:59       [2] Finding matches
+Oct 07 08:08:37       [2] newly found: 275830242
+Oct 07 08:08:38 ------------------
+Oct 07 08:08:38 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:1748851084 5:314908283 6:10535947 7:11555
+Oct 07 08:08:38         [3] Status: inbox = 275830242 big = 4134703472 found = 1748851084
+Oct 07 08:08:38         [3] Building negation
+Oct 07 08:08:50         [3] Sort inboxNegs
+Oct 07 08:09:27         [3] Finding matches
+Oct 07 08:12:49         [3] newly found: 216521650
+Oct 07 08:12:51 ------------------
+Oct 07 08:12:51 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:1748851084 5:314908283 6:10535947 7:11555
+Oct 07 08:12:51           [4] Status: inbox = 216521650 big = 1748851084 found = 314908283
+Oct 07 08:12:51           [4] Building negation
+Oct 07 08:13:00           [4] Sort inbox
+Oct 07 08:13:45           [4] Sort inboxNegs
+Oct 07 08:14:27           [4] Merging into big
+Oct 07 08:18:40           [4] Finding matches
+Oct 07 08:20:19           [4] newly found: 83539866
+Oct 07 08:20:21 ------------------
+Oct 07 08:20:21 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:1965372734 5:314908283 6:10535947 7:11555
+Oct 07 08:20:21             [5] Status: inbox = 83539866 big = 314908283 found = 10535947
+Oct 07 08:20:21             [5] Building negation
+Oct 07 08:20:23             [5] Sort inbox
+Oct 07 08:20:31             [5] Sort inboxNegs
+Oct 07 08:20:39             [5] Merging into big
+Oct 07 08:21:34             [5] Finding matches
+Oct 07 08:21:44             [5] newly found: 6339876
+Oct 07 08:21:46 ------------------
+Oct 07 08:21:46 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:1965372734 5:398448149 6:10535947 7:11555
+Oct 07 08:21:46               [6] Status: inbox = 6339876 big = 10535947 found = 11555
+Oct 07 08:21:46               [6] Building negation
+Oct 07 08:21:46               [6] Sort inbox
+Oct 07 08:21:47               [6] Sort inboxNegs
+Oct 07 08:21:47               [6] Merging into big
+Oct 07 08:21:49               [6] Finding matches
+Oct 07 08:21:50               [6] newly found: 18002
+Oct 07 08:21:50 ------------------
+Oct 07 08:21:50 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:1965372734 5:398448149 6:16875823 7:11555
+Oct 07 08:21:50                 [7] Status: inbox = 18002 big = 11555 found = 0
+Oct 07 08:21:50                 [7] Building negation
+Oct 07 08:21:50                 [7] Sort inbox
+Oct 07 08:21:50                 [7] Sort inboxNegs
+Oct 07 08:21:50                 [7] Merging into big
+Oct 07 08:21:50                 [7] Finding matches
+Oct 07 08:21:50                 [7] newly found: 0
+Oct 07 08:21:50 ------------------
+Oct 07 08:21:50 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:1965372734 5:398448149 6:16875823 7:29557
+Oct 07 08:21:50 Generating 500000000 fresh hashes
+Oct 07 08:22:24   [0] Status: inbox = 500000000 big = 4000000000 found = 10634256298
+Oct 07 08:22:24   [0] Building negation
+Oct 07 08:23:05   [0] Sort inboxNegs
+Oct 07 08:25:26   [0] Finding matches
+Oct 07 08:29:19   [0] newly found: 398683883
+Oct 07 08:29:21 ------------------
+Oct 07 08:29:21 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:1965372734 5:398448149 6:16875823 7:29557
+Oct 07 08:29:21     [1] Status: inbox = 398683883 big = 4254595655 found = 7295138734
+Oct 07 08:29:21     [1] Building negation
+Oct 07 08:29:45     [1] Sort inboxNegs
+Oct 07 08:31:15     [1] Finding matches
+Oct 07 08:35:00     [1] newly found: 333526157
+Oct 07 08:35:03 ------------------
+Oct 07 08:35:03 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:1965372734 5:398448149 6:16875823 7:29557
+Oct 07 08:35:03       [2] Status: inbox = 333526157 big = 4293075100 found = 4410533714
+Oct 07 08:35:03       [2] Building negation
+Oct 07 08:35:22       [2] Sort inboxNegs
+Oct 07 08:36:15       [2] Finding matches
+Oct 07 08:39:53       [2] newly found: 275738417
+Oct 07 08:39:55 ------------------
+Oct 07 08:39:55 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:1965372734 5:398448149 6:16875823 7:29557
+Oct 07 08:39:55         [3] Status: inbox = 275738417 big = 4134703472 found = 1965372734
+Oct 07 08:39:55         [3] Building negation
+Oct 07 08:40:07         [3] Sort inboxNegs
+Oct 07 08:40:46         [3] Finding matches
+Oct 07 08:44:07         [3] newly found: 216438562
+Oct 07 08:44:09 ------------------
+Oct 07 08:44:09 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:1965372734 5:398448149 6:16875823 7:29557
+Oct 07 08:44:09           [4] Status: inbox = 216438562 big = 1965372734 found = 398448149
+Oct 07 08:44:09           [4] Building negation
+Oct 07 08:44:17           [4] Sort inbox
+Oct 07 08:45:04           [4] Sort inboxNegs
+Oct 07 08:45:44           [4] Merging into big
+Oct 07 08:50:26           [4] Finding matches
+Oct 07 08:52:13           [4] newly found: 92396536
+Oct 07 08:52:15 ------------------
+Oct 07 08:52:15 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:2181811296 5:398448149 6:16875823 7:29557
+Oct 07 08:52:15             [5] Status: inbox = 92396536 big = 398448149 found = 16875823
+Oct 07 08:52:15             [5] Building negation
+Oct 07 08:52:17             [5] Sort inbox
+Oct 07 08:52:26             [5] Sort inboxNegs
+Oct 07 08:52:35             [5] Merging into big
+Oct 07 08:53:42             [5] Finding matches
+Oct 07 08:53:53             [5] newly found: 8701026
+Oct 07 08:53:54 ------------------
+Oct 07 08:53:54 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:2181811296 5:490844685 6:16875823 7:29557
+Oct 07 08:53:54               [6] Status: inbox = 8701026 big = 16875823 found = 29557
+Oct 07 08:53:54               [6] Building negation
+Oct 07 08:53:54               [6] Sort inbox
+Oct 07 08:53:55               [6] Sort inboxNegs
+Oct 07 08:53:56               [6] Merging into big
+Oct 07 08:53:59               [6] Finding matches
+Oct 07 08:54:00               [6] newly found: 38132
+Oct 07 08:54:00 ------------------
+Oct 07 08:54:00 Sizes: 0:4000000000(done) 1:4254595655(done) 2:4293075100(done) 3:4134703472(done) 4:2181811296 5:490844685 6:25576849 7:29557
+Oct 07 08:54:00                 [7] Status: inbox = 38132 big = 29557 found = 0
+Oct 07 08:54:00                 [7] Building negation
+Oct 07 08:54:00                 [7] Sort inbox
+Oct 07 08:54:00                 [7] Sort inboxNegs
+Oct 07 08:54:00                 [7] Merging into big
+Oct 07 08:54:00                 [7] Finding matches
+Oct 07 09:04:05 ed4645149f88082434d90b2caac2b6e922ea8ec33079de9cc0f336e5fc4e31b8 (3829559)
+Oct 07 09:04:05 027cd8210a223ad1eec5b2bf5c691d81462be33a45f43deef798b44038c348b3 (5851718)
+Oct 07 09:04:05 525c0e29757f0f4c0f0c202adc9babbac18346cda3d541de3f7c3be40b1602cc (125485973)
+Oct 07 09:04:05 b3d4bb1db9825cc7e4869cdcf9686a615f5199ce704e67b37457f6d3face5cca (129113872)
+Oct 07 09:04:05 415e9281903453efb84722958cc734af6058cb1ba46bb06adcaa2b1e1cdb4241 (131184248)
+Oct 07 09:04:05 3e09536389aa3974f542f0d1352b111c31f42046073a9309e12b72159d35cca6 (159067254)
+Oct 07 09:04:05 042e9010073ca068c80e802b9b0a60d7e5e5092c38b80aa9f37b12f393971aa5 (174338733)
+Oct 07 09:04:05 8654c909e61d34ea2a676fcdec2c68876109cce46b3ebab0f09a951e8846846f (180827547)
+Oct 07 09:04:05 925bec09115c710cf56cb6bdb1f8c30cfe50c4b4a5f69ad7633c6e5e08ee66ec (190630699)
+Oct 07 09:04:05 552f9521109406cad54267d26ae04ef47351ac303aa62fdfe2feb4512876342f (193623858)
+Oct 07 09:04:05 9ddf812004d96f3b816f8666055bac34d26e8053e325de1bf21b8e6e8ba2a421 (198940404)
+Oct 07 09:04:05 4f10bd3e7a767da0906dd259cad954bcfee1750e8afa2d37b72460b9015082fa (204827716)
+Oct 07 09:04:05 f99d22b57f797bb09a03c97435741075be0d8d36ec3f9d638f6c3fcaf5721e3e (218022895)
+Oct 07 09:04:05 817ed873a3f295041dfd6cbedf60f496db3c824fc863b30602e9d3e496110f74 (223069199)
+Oct 07 09:04:05 f53c9c9b4b8ea7bbe182abca9a6b93092676e8341fd7e7895f0adf7a80a06940 (234572579)
+Oct 07 09:04:05 f1a2806fb3f3b3067851f515f067996e77856a521bc1fb2005e10517b9052e85 (244243376)
+Oct 07 09:04:05 243ef06b9a0c23bdd4e9c1d3b3b343fb9f6bb94adca346dc624e88b669eef08c (245619720)
+Oct 07 09:04:05 2daa9c1fa50cc0186cf43fd056f29be4f19868adaa29dead0082dc1477b97b91 (255021490)
+Oct 07 09:04:05 4a1808787bf092e3e4eca8774178952469ad5a8a47a3a34eedfc4e93c42a8193 (292365890)
+Oct 07 09:04:05 aec7657e64780b192e70a8573add4fa709d8020ff6d1c6206b5a0b576b88a8b3 (315996717)
+Oct 07 09:04:05 b8faf1ca71b030eb98f39b3c1bff3670a1e87c35aa51dae6320ea38f8fb5791f (320808354)
+Oct 07 09:04:05 c048b88a63ced1c0711fb13d57274254546f695c27a728b690b5d7981c209b41 (328741565)
+Oct 07 09:04:05 b150c779a860c106dfed5eb405b9453d440d98816984a8881773c42ee3df64bf (335829294)
+Oct 07 09:04:05 85bbbae896dd092319acacfe50e852c70f650cd1dd29328584d35b73c066c20b (347087030)
+Oct 07 09:04:05 e867872b4918b678348bc6de7a257c746fb8bcade9677c217ad286ca64e02e36 (371731340)
+Oct 07 09:04:05 bcf15992a13b86b950530ad914c0bc7470a5829bcf7ce2fed579c4ac3b9ace15 (386689852)
+Oct 07 09:04:05 4ca6e0faf853c226073c15a811aecbea7e1d4d3a8259ffa179a9b0a2f8e7d20d (408403327)
+Oct 07 09:04:05 2fdeb8923e45dd605ad759c8961b803d91c2a798e73a25724aac6afb6c68e55b (408670572)
+Oct 07 09:04:05 3b188a746010fbb328ec6466c52c209d9b633175e608366875ea3b45fb096f94 (413114674)
+Oct 07 09:04:05 85a772d4b2f4397dcc5e2bce7155758387407b6dd3838946b8897edf745d5bdf (431491093)
+Oct 07 09:04:05 b2d3af0646b72be482d88be7100ed96adb1df69657ddeaf9cb2551fe9cb8e09f (439351389)
+Oct 07 09:04:05 e6529a8e4054a5cf14b51ec4ce47fb6cbd16e5f90b3b0fca75f92436e324bdbf (443061498)
+Oct 07 09:04:05 72afeb853c6f9585ac51aa946f2954ac98bedad575840bee1120e81ad863d039 (449816823)
+Oct 07 09:04:05 abe182e2697990faff69197edde6b23b3624fe61ff0272a4d82ac4dd109af60b (492748034)
+Oct 07 09:04:05 8b5c387183ec40b89b6072c0f3d97978f41d7ce87a4c2b1265a313136ffd93b1 (565562484)
+Oct 07 09:04:05 bd41a308e765e53288532dec3f660018509ed5eb9094b958b862e802d975ed51 (596262363)
+Oct 07 09:04:05 87fdfd3ff50eee01fa26515d2a88afe2a9f8571ba72723605a63f514fd31401b (599006900)
+Oct 07 09:04:05 fe54041c707cff2f60abc6c1e73da346d7e162510827999d13c8921322b8710d (620018890)
+Oct 07 09:04:05 d620e3d85ad9f708c9367627dfbfb9584c917e0ef5e37dc0514f2b3117a3fae1 (621221667)
+Oct 07 09:04:05 b05ba2db923b6a56230d328eedabf72bb88c7a5ff64805e47ed5d434e11c64a7 (626996384)
+Oct 07 09:04:05 c2816188d014e46af7d1d11bd33343b14872b45d7ce75b328054f717dc6654a4 (630171641)
+Oct 07 09:04:05 e9f17fedd34c4c093537c64c8370f0542190550a7581b1a49a74bebbe9ab28db (731680303)
+Oct 07 09:04:05 ced0482547b297b54cab195549d56caeaf8f21cc5da2646c52638654b8ea5d15 (732463898)
+Oct 07 09:04:05 d98406dcf75e9b88a3beeaf51ce7fd17b5ff9ba33f15514fcc8eed1bdd478ef3 (773015067)
+Oct 07 09:04:05 85f976117e6b74ff89ea730675d1e241c2bc9fb540c86dda0d406f62ec83ea2f (802142086)
+Oct 07 09:04:05 54095e0e4fec8a29d524119d4e40fe3d9feef716766f5d92098ef3dec5984176 (855832375)
+Oct 07 09:04:05 a46d54dacf00f906e7cd979da4372ed62c7cef550ac1da24146c9cf810a6dcb3 (885874778)
+Oct 07 09:04:05 181fee16d7f69de066f28a9956b6107484d1078616bbb18248b60050cde36e21 (890883871)
+Oct 07 09:04:05 156650e74ff214216cf6f704cae0cd87c7546aaab590c4200bbb8368714a4a6e (897068819)
+Oct 07 09:04:05 d8dc25459fc5ed76335cbb621af1966e9f03bac7d2d68bf4fb1a4d219ece3797 (900042222)
+Oct 07 09:04:05 081c5b9d5528620989a467c922413d9dec8c39fcf4624119b21417711d25bf9d (900707962)
+Oct 07 09:04:05 0b4b664ef5ad33bce24ee99830c06e0b04202031dbf9968225ad8a0265f5c100 (904865492)
+Oct 07 09:04:05 584d365036720d3fd2779564a9d52819035625f7a684b77de1f2c3c93cd700fb (910930319)
+Oct 07 09:04:05 ef7b40f3a577765d7aebb7b75410e0d5d0d04e95ac4d11f934fbebe14809bb29 (914159545)
+Oct 07 09:04:05 754421bfe435bd80fa0fdb7bbd33710f6b76d739778229f533f6f03ecb871c10 (927929432)
+Oct 07 09:04:05 72ce7aa9745da82155d198f0d9b25514924959c261e1448752e03919e0a46910 (937734642)
+Oct 07 09:04:05 e2f7cc20f9d7803acbd78ea9da196fd56451a112cadbbdcdfc7bf1f7e9366990 (947943078)
+Oct 07 09:04:05 098f563a1ff54821ea919edcf18b938dd719aff2616aa79f9979cab8d4ec5d5f (961483530)
+Oct 07 09:04:05 288626ee6857d2728b118547e0d8bc7ddd87036bbb983f6bee967d51d1f310a4 (990537361)
+Oct 07 09:04:05 f89216fb70e43ac448210b6437ac6cd971022ff6261d8085942aa55620d1c7ff (995515143)
+Oct 07 09:04:05 f9ba2e4b65035f31bd4f3770ae0a194f1d488c9cd583ddb9421c00e6b6aa941e (1047418335)
+Oct 07 09:04:05 aff2a3a2070159e5ea7681926fd93cbf21a822e6ed9cf12685d5e8a58aa5e99d (1087956806)
+Oct 07 09:04:05 ab9ee2a6d650b25d34114475d2ce40fc4c8d896610d660e0ea8cea57baf79f1c (1103492311)
+Oct 07 09:04:05 1e0a35032f358d59770f34e270ea499b0c9eb1961d55493b545e9b0f664f887f (1128482937)
+Oct 07 09:04:05 571a947609b122cf5525197bf06d843c57da4b270c44094610f346c41b4a0b7b (1141986332)
+Oct 07 09:04:05 f2153911a4f9f50300daf22842103ce4662cc815de4e39c9a65fe92a38b2b3b9 (1142094578)
+Oct 07 09:04:05 4d192a294de74eb846ead09bf8176222a15915894cf8c399fae6557b6c4f709b (1175120618)
+Oct 07 09:04:05 93f08719e6b91dc9d04199da8a67daf0bfcd90168be666d4c664d6a7400e750e (1186496472)
+Oct 07 09:04:05 9e713eaa7e0df47aadfbcd6365969d251da4fd51c1a31debab80812a2399ab5c (1204734527)
+Oct 07 09:04:05 f5ede07b1a718ee3ea3e79034d10917a03f3b991907eaf807fb272d077e26c12 (1241298802)
+Oct 07 09:04:05 fdec543c3a1f13bd74797eb273d973376fc1b0bf27d0a9d0b2e2790ee7187229 (1245272757)
+Oct 07 09:04:05 e2c0cdaa463ef0cc5bf1003797bac30abb2cdd973e1b5a3f00ec873128fb3f2d (1340445099)
+Oct 07 09:04:05 77f43d031f958af3fcd7cd2524b80b3151b192821abd1268eda24a19cc19e8dc (1371844537)
+Oct 07 09:04:05 c28cf136900f622f62fd075302f02692c3921233d3eeaad55b7b418a3cbe2e56 (1378882558)
+Oct 07 09:04:05 3f92e2620d158907bf5dbe18a051fa17e3699e8fce40a8f26ccdc9d804f6906c (1395408799)
+Oct 07 09:04:05 8b6fb740961b5a2a6ae24935446e65a5dc79af6a30b1e278db405a3ff1bda8ef (1397578841)
+Oct 07 09:04:05 ecf9bf785fdedde6bf8a19b78af4428c1d83ecc1f7aa4c5b776bda917617ce98 (1399246650)
+Oct 07 09:04:05 a6c85f41c5430440e17fecf48f8e8a1c862dc9630238f6c113dc018cbca78e77 (1406137023)
+Oct 07 09:04:05 130645b6ebe72b24f2b21b396d7a65e59f4bf6c9faec9482ee41a8966dd74065 (1418823996)
+Oct 07 09:04:05 6d2dd67e2c9890e7365335911086ad3f629e7302aba90524fa64f38dd958491c (1439067578)
+Oct 07 09:04:05 f5247de4189ab44b512943dfedd1fce9f4dc9f330fc2851835e7eccb9c114ffd (1463337119)
+Oct 07 09:04:05 0a3867ac3d03ff04c6991de6601171dde7cf9b769ea737e4a6011badb1b1ac85 (1480387204)
+Oct 07 09:04:05 8f35bc432ff010496ff93ba4ec80bca8588b6de83dd3a27f9fd662ed268a12af (1514829675)
+Oct 07 09:04:05 d64fd0145689478ac45888fca5571a8e1f477a9a2ad2d62f21b39a3b26a7b6e4 (1520593220)
+Oct 07 09:04:05 13bd796eaa1d8ee2e1e91c47262b1a91c800569baa466635b80b624cb3531617 (1526881266)
+Oct 07 09:04:05 dc7ae8b78c4efae4223ea89054f9a1592747329c6e10e58e6b10b558f330a12c (1535602502)
+Oct 07 09:04:05 aeda2e78b6441c9f67cb952a92c2aa1d9e450489aea06687dea6a882c90cc698 (1542311326)
+Oct 07 09:04:05 6b8388615a305c5d9d2ce4f39de1ec73aa43ed8809d5ea8e4be9bdc5a67d06ac (1572546591)
+Oct 07 09:04:05 2577f939526b7fd33ec0d7b9747ff2a7b342713ab7f15a0f9c28c93acb8cd321 (1578639044)
+Oct 07 09:04:05 75ad1a97de6bec4799fcf7b237f1368f61c1486687fc06c5007b0f7d93b08f65 (1591068177)
+Oct 07 09:04:05 80e4f18ae3b33680e325f1d13c3a1e351465f33d2b62c6697e1ba35ae8b25ba1 (1611844158)
+Oct 07 09:04:05 6c18bf63d04874890414518ec43e7d77fe15da0d49f9a15148433247bff57381 (1630753798)
+Oct 07 09:04:05 4c5db63a1256dbb06dfed691316139286e795608386d1cc597ae7749ebf65cd2 (1637837440)
+Oct 07 09:04:05 ce3ee5e159f3fce8c292654a902e33dc4fd33b5b90efdf0cc34fe90934732cdf (1645045380)
+Oct 07 09:04:05 72c31a507f002cff7926e2793a39933513746265a83ed28b81f5caad249a17e0 (1672145579)
+Oct 07 09:04:05 672bb979fc470944cb1da9167cb7a6eaa3e4b912f2d949556ca01f4603743e70 (1683443190)
+Oct 07 09:04:05 9ffe41631e2641a8b214e623f5b8e3015bdf25a14494a97741a8023713ff36d1 (1708269502)
+Oct 07 09:04:05 c2e9628b75558d405816feeb3b44e9bac8c389aa3b583dbe1b999d215afe9742 (1718685926)
+Oct 07 09:04:05 748af03dedd94ff24f547c91aa15e2980e86c90739eceb0f0e486658c46531eb (1721975900)
+Oct 07 09:04:05 a9dc92b4283744548faf34ac20f60d0617296eccb0496fefaa73fd599e7e7bc0 (1727842680)
+Oct 07 09:04:05 878e718e13a90e107fb40f449f8926667303b1c47d67622aa2cc1557fc8bc190 (1773334996)
+Oct 07 09:04:05 dabce960ff8830eb52db5cee33e2079c31f3401c3d298bd6dbf0022a4507bc09 (1779889345)
+Oct 07 09:04:05 bdf99d1e15249b39992e53f96c45a8e058a24a070588e61dcca7383e36f33968 (1818607647)
+Oct 07 09:04:05 42a3c3a9bdd9d2dea86100dc483ebb78e4a907591130b7a1ff8444bb66c0ca10 (1858262026)
+Oct 07 09:04:05 09b73ca08b4e62ab67ebb1c1e76c7465a0c936199b0bc9b34da519a77f5f96c0 (1859109456)
+Oct 07 09:04:05 c37a32e8f05e2b52749ff088ba9d4ebd47f7d49172d5b598813ee27e63da1013 (1878311158)
+Oct 07 09:04:05 7dadd1bdb52d08377884cee59948efcdbe995d71296ca4e4a4161a4bd6e40f57 (1950069892)
+Oct 07 09:04:05 58826cef0e6d6d1f60a830de645b518c36b4bb5bbb2114172b166c45a36db0f1 (1973946495)
+Oct 07 09:04:05 5a7e7d2203e733d9be3fb3eb589a58628fa54c5a7f6ece158580b31b8eb5b592 (1996656826)
+Oct 07 09:04:05 12a54b39d0e16cdf7b39e6ab6fc448ed9b535ef7ddba904b1e4727feddb5de9a (2007547580)
+Oct 07 09:04:05 2afe47ca2abbb6acab55cb334f9570f8550fcdc74c2814bde028cf842b58750e (2043348095)
+Oct 07 09:04:05 6b9c880272168d9e3fd9477a4253e5afc3b38eff5be30d3272ef1771a5029ec1 (2087399745)
+Oct 07 09:04:05 87bc820d8b360a9e27f9197c5f5200150c96e6d2efd77bf4064e3a0a5fefd851 (2145964213)
+Oct 07 09:04:05 2ecc2e6367caf4a63b388c92ce787e9ccbf77db7fba77f6b1b3f26975b2e1971 (2149637688)
+Oct 07 09:04:05 859cd9177b01f34c6acc0831dbeab3daf69fc65c76256fa67e817e3189e83168 (2207284034)
+Oct 07 09:04:05 7123c0eca4c69541b5803c622c32f63518d94f3b06cb94ac000d3679fe6fd3e3 (2212894908)
+Oct 07 09:04:05 949808da1d815d0e996d42f9b7564693cfee6266b468d5182bce5711174da45f (2224712647)
+Oct 07 09:04:05 d08c44456cdf102dfe7db197985189f8815aae1cc3b90f68e17a2e82e2da4063 (2240856587)
+Oct 07 09:04:05 ffc95e98ad32c89d9375d0039d6e3cbabd39f7dec349ac8f4c9679c9d391c8b6 (2286608408)
+Oct 07 09:04:05 a342922d5fd3b6d3db03d969339702bc2466c07eea7a73a6084011a6146ed72e (2323359234)
+Oct 07 09:04:05 39ba7d59ee34603c42533bb701b9d3c9cd8dc502b83f5f00886c170afa001bf5 (2333381183)
+Oct 07 09:04:05 0b486e97c7713e80a42f3212fdd162dc801e58c35a12dc8ede395ada1d506b4c (2345947088)
+Oct 07 09:04:05 4ba4126af346e40b132ed4210ef625a9259e7206bc5a50cbae9c159533e61724 (2374288603)
+Oct 07 09:04:05 2fb506630ab18980ba32e4e45962741aebed09a1f68776d36ee516179d0a0861 (2379284858)
+Oct 07 09:04:05 afec93731da10396142b6996eb35b8946f4b35ce281b564eaae8cc3a9e54e241 (2403897316)
+Oct 07 09:04:05 98704d996c4602bb5336be2436563ce345b64540732fbd283a54a4a8ee3c714c (2407485305)
+Oct 07 09:04:05 159ea03946587002a2b3f6dcb05c62400fcb62aafb7650a2bf4196022d1f7cd2 (2479797327)
+Oct 07 09:04:05 f26bde99cfde05f2cbaad1ac3241fa307acd4500865d135b2f803cc6e1f3bd6a (2480800455)
+Oct 07 09:04:05 3abd51ed74a8b85e956a6156f72ac926837d6bc83615be1f446b4ca20e425711 (2512723234)
+Oct 07 09:04:05 d2719827057ddc5cdb4451fb2cb27287aa0fc3bd1987d02aba9ed3e0d4a78af2 (2518645202)
+Oct 07 09:04:05 2ad449e471266c076a450c7f6610d6bf29b5bae18dad714a82aa985b137c15d1 (2538813569)
+Oct 07 09:04:05 dbe719013e6428b14c4e838d1f8aa0df9c7fa6ea7fdc868ba35724a707948194 (2543210393)
+Oct 07 09:04:05 2d536ab3c75c4219502a629f9f98e7747b531918fcd4dcb3e2dc38040171a1d6 (2578552064)
+Oct 07 09:04:05 725e9d12eef05b2ff2a5c1421f75f981c24f8d9ae15277b86e597b6112105a71 (2643644450)
+Oct 07 09:04:05 7fe28d88e8b5753df5a87fa8f8e6659aaa1ae07dc53f94f5ad80edf8cb0b4944 (2687230816)
+Oct 07 09:04:05 8c51496fa28941f11436f32cb75e905e42d2a683f94eada6859a11e281fd11b2 (2703106079)
+Oct 07 09:04:05 a9e66600c7161cd49a0dab1482bd6b63d6ff8c45a26d1c7f129a2601704a86e1 (2825407233)
+Oct 07 09:04:05 b4e09dcbe801ae6df3e51add577a8c8d7f5988b794f5dfd971b36aedd789cbd1 (2940290823)
+Oct 07 09:04:05 8b02b17f34f0942d206a79e35245b421d93eb6815aa66d11d85aea651a0b520c (2979939957)
+Oct 07 09:04:05 1c2fbab88d4835463f6fc7ff5f9bcaff63ef4409e60c576679af3437ec00c92f (2985410210)
+Oct 07 09:04:05 b66333f4dc097261e8f632d37f9f18366ba50d6308eb1f670fd4b71df5ff0240 (3093283462)
+Oct 07 09:04:05 c56e511765b2eae5f7053ce9c9b9d390116e843a8e8fa575eec5416bf01c86ae (3108915142)
+Oct 07 09:04:05 3062368262eec7745d10d33dd7ef581084983600f04813063644d47a3db81ad7 (3125045929)
+Oct 07 09:04:05 eb57011780bb3e823013fc76c4323d05987d5d6c5e64aa5e6f0ed714c8758648 (3145422331)
+Oct 07 09:04:05 b5eca1e4d0c67ef866d342222bf7c027cb50d3593442d71b2d66ebbd881d93ee (3153668123)
+Oct 07 09:04:05 68b686da42350d2b9ed7827619227197e6d1d8864cbf432d0c86bf7e05ffe40b (3203227077)
+Oct 07 09:04:05 0af7a5493ca4406e51e7d5fb60a4b1f04c6b00da924451ea3ef12d3838962837 (3211497656)
+Oct 07 09:04:05 1d09098526ebd338aa1e572d9c62f647b62dcf187ea6371cb0839ec2ecf91a92 (3246152807)
+Oct 07 09:04:05 5976fa944641af96b6f71102b1cd2c415806a84575fba77ac130727d932184ad (3264430380)
+Oct 07 09:04:05 ff8a975e0b7ce6c42f7e8cf3e8ff9700827d21c92d443fb4942ba61d1409a32e (3284197625)
+Oct 07 09:04:05 8a08c166cc476ab67af04d483f1b66ee39556f67fab7bffc6c4daae54fd84f8e (3297738236)
+Oct 07 09:04:05 13f208175055292d0a31d8d9dac87f7b38a2cfdc921ba66cba1aac317e4104e1 (3307908122)
+Oct 07 09:04:05 f305cc8e2f5f7e6583b61e8de1ad0207b2bab4b14478e223def4875c99b07781 (3326054638)
+Oct 07 09:04:05 541ec3e9ea3215e9a8b6d363fa5aaa5e4799db44b8e1098f70e9743af7119914 (3353839714)
+Oct 07 09:04:05 fc48a096abe2d58b5b3df7975cdb74fd6f10581434bbe3a627d76e52755a1663 (3356508522)
+Oct 07 09:04:05 43fbfcacf3f63804987da308bd52ecb141e848d5b41797c44582772efecad9b7 (3399846996)
+Oct 07 09:04:05 40484110df93fb82f6a40cf7e0290d199462fc1528b575dfd7e8950e224a2166 (3448291732)
+Oct 07 09:04:05 c806c67545c18eeeb31352fa8e13e8a5cdee5b5fa44cac50237328f162ca335a (3506595855)
+Oct 07 09:04:05 49f1029f71ccc69b04dfc2306236633278ae25c94758913be87d39210ccf5ed4 (3563411335)
+Oct 07 09:04:05 af51553c55a764de844491efe10b4706f25212c6dfc3f96d3d87890cc74d4c47 (3694200862)
+Oct 07 09:04:05 1450181e13ac11a537deca9e2b04006e1c2c483f3c892f123ab2205cc769d7c9 (3724648852)
+Oct 07 09:04:05 c8de6ed512f27567e4a442761b20beae3917762d9508be57d75426c59cb5fe4f (3729057152)
+Oct 07 09:04:05 724288fe9aacdf2b8c15cd9b783fbc74db4d2307ec7e6f14561f0ca61654d725 (3755261119)
+Oct 07 09:04:05 1a62da16f85bc47daaffa7e3b8a499e493f3dd06870f6ef227ebd28d8a34965a (3773731435)
+Oct 07 09:04:05 7295bdc940b3ce9fe8590bfe128f31c10b7751f67abb3ec31a276504be7468e6 (3787649778)
+Oct 07 09:04:05 1a5a988d9afe549ad9d301115cce19a5beb9ebd87b3702cdee1c3a4f61ab1dbf (3798130795)
+Oct 07 09:04:05 6d098e1b94ad2b04da1bbf4e41838ce72ff6c3d73aed328dbc68cb914771978c (3884705650)
+Oct 07 09:04:05 b3fc7cb7e2fc6f96755914ff53de478f62ab7b597f98eddc02f76c5d4715a2eb (3913912548)
+Oct 07 09:04:05 747a6d3f536cdcda505709d46383b09acb07cd60458bfb29d7654e89400a8c7f (3914017603)
+Oct 07 09:04:05 6be49e618cbbd41ea5aef761c42789c2fb6b58a05b1fc8d6f73756789198582c (3948206797)
+Oct 07 09:04:05 92770b56ac58320857a353251e6e1195223b19e3103fb337d84aeb5a291bf0a9 (3987386701)
+Oct 07 09:04:05 ff590add40e9497230f638f711a2dae1cdcfca10fbe93d4c9e61b9740fe37952 (3990619319)
+Oct 07 09:04:05 6e4d5f156f059bb0d09b21b75ca5861c57effde9d6cf9363d601e727f410b9ed (3999946544)
+Oct 07 09:04:05 ac07fb976138d5d441c86f8b2aa5acd4a5185011078439efcd26a11e5c924f0f (4074103368)
+Oct 07 09:04:05 966353e8b737cbcd6a4ec365832aa04207efa73812d35665ee6e2b2e81befb1f (4269081691)
+Oct 07 09:04:05 bef3482e30200600e391d65e3767da1dc758128313a3f4580ef6090218e78dd7 (4344359543)
+Oct 07 09:04:05 7c7ac56b96765fd1297b6323f6b73f5423bb766bf5fbe1de0d8162f7450860e4 (4501792950)
+Oct 07 09:04:05 9427e8d77f413b61ee4b3850e224c01ddd6fc5ac58cd544f9aae4042ef6509f5 (4522242700)
+Oct 07 09:04:05 a35102f05fdd648bfbefa5f13e59fc405fc4357f4661c60dbb726914c73cb74d (4564820491)
+Oct 07 09:04:05 b6708f8194655d5baab8534fdf0c30165acc1300fb58a81fd305df670a8de1c2 (4576498805)
+Oct 07 09:04:05 2456a1db0783d7e4b2f009848e1499cc4e72350e7ef1569393e1ab0a3478e3f0 (4683346071)
+Oct 07 09:04:05 edbc321e8336854dd6dde1cafa51423e7f1a4177b916c667725437bb46fad17b (4763175622)
+Oct 07 09:04:05 5cc7a5f7efbf796073c21e6785852c8b2c97a1787b89cc4e8fde2820a4d1e68f (5030954463)
+Oct 07 09:04:05 9d9c0710d7153478755e94d3124d9b23bbb13ca8401fdba0573f78e33a67be8a (5120259921)
+Oct 07 09:04:05 e090f509c4d94c971d4c664b6faed99c4a7a06cea19d609469e8cef9f86b7e6c (5160032591)
+Oct 07 09:04:05 6c7f5ebb8cb780e25bf20f0071777a74029d8b7b00dc200e6debdb52e5f4adf4 (5216092381)
+Oct 07 09:04:05 c0c77a400de12916db387ae1eba30840a67d7ef06519a30b396d39aeedefa58f (5310498251)
+Oct 07 09:04:05 568b40bbb9465ddf39cd11c513ad9f9ac791e9b9464476061675b3c0c247e529 (5352928529)
+Oct 07 09:04:05 5881367f372d2eae77834265726e4f0f2a0862aa84a1d65919bdfe45e85c051f (5400020453)
+Oct 07 09:04:05 8be472d62b20668aa3015c48a396a6e7061b25672aef22be2028681d9477574d (5710110729)
+Oct 07 09:04:05 16403e64d886fc0130e4b4e1d13041946fd52c37a3b6c184cde3ad5f3bd57e6d (5784385034)
+Oct 07 09:04:05 c8844c46f06e7c1d61017dab626fc6c7245fd9dfc4dc8c44ec2872ab9b1fd1ca (5924949389)
+Oct 07 09:04:05 f729e3bd6a59df839b436b68d25549c6c541fe187cc68d7c042c0a1bfe8e5e2a (6058528498)
+Oct 07 09:04:05 aa9a58c11f24746ead64b6927b432e6cdcbf9e2e5a006958d0a66273feaf7d06 (6066190272)
+Oct 07 09:04:05 534006a4fe4b0e033ddeb8ad536ae48507682f376e357a2cf851fe2707182df3 (6117948520)
+Oct 07 09:04:05 604e6b26d28fe46c897a4e34dac7c3d1fac45f883c8218d81af020cf7e02ee4e (6119682969)
+Oct 07 09:04:05 b3e4ce18d40a3fca5f5fabaf6556e04e1a0b25d9b015b64fcbe4c2f09c25efed (6153190376)
+Oct 07 09:04:05 3f3202d66ea7dec7cb82f99781569931790bbf1c914901b82a3ffc6c11c38eb4 (6182838858)
+Oct 07 09:04:05 e142f6e75d63ae1f5c24f0dc93dc764c5341ade6d6a9032fffb4f267378a79b8 (6189390279)
+Oct 07 09:04:05 7f4fc52842161f1432fa91c36240aec2f241b2e1f4a83ca89d26662502cebfe5 (6197899782)
+Oct 07 09:04:05 de113e3ad3022e0678a820aa3254d3c1ac995fe9227b057914f870f2a50168be (6218328556)
+Oct 07 09:04:05 119f8d47ed7d32d513b81aa00c2fb63434166297d554224cbba504186e67a7d4 (6235568047)
+Oct 07 09:04:05 07bae432485f5a78edada5325f86d150ba83f52ad633dd37bcb57bcc61818440 (6377337987)
+Oct 07 09:04:05 50d403ac570bd977713ac8ea6280a8d6b07f3a5e454350c35123fd9d9a0a3f00 (6417910711)
+Oct 07 09:04:05 03c14a6992dde8474638c74dbf5fc1ed1c8f8cf5b6838fc5d928a462b027b072 (6465471695)
+Oct 07 09:04:05 7aeafe99db651d73c9b491d0420fe846081e4b3f3a8b05f929f170c262f5f79f (6466693614)
+Oct 07 09:04:05 937210e1d6d39e91f0c82cd7b82f9cf1c0e03e272b474c8a9da7634bd704c0d3 (6481873355)
+Oct 07 09:04:05 f7ae86a2ad56d5fa7fe139c13028acc724750ad8d601778e615edf0901902c1d (6566761641)
+Oct 07 09:04:05 a76b347a79fd679d67807320278ddeb0f538772ebfd6420dbf6f63966131c869 (6584662484)
+Oct 07 09:04:05 2a5c8e748e11dd44592c585b9ef71c731387536d2665da94136a658df4e9fd34 (6588082588)
+Oct 07 09:04:05 af5ecbe1ce9cbeb2ee0fd95079561d85f3c074db9bdf6338028b2f064e4e537b (6693735280)
+Oct 07 09:04:05 c099ca8d78f37d77428c2f50e5a753e6a53eb5d55d2d232b1a33fc2f9228bf9b (6733686841)
+Oct 07 09:04:05 47a96e48f5aa8433a1bdee252c163b853901141867abf12514a17b474cace9e9 (6877128186)
+Oct 07 09:04:05 1fed8096627d130c83b1ef3ea8629b81107970504e0eed3b88ef9d24eb9128d2 (6888658361)
+Oct 07 09:04:05 d007ffaec8bb9f987d93b1bdc8fcaf087f17323b1705a0a7878f5d5e43587189 (6904291444)
+Oct 07 09:04:05 9dc8d96ac43462360cfe86b70b69161f6b6a7628b2d0a6bbfaab142c16c99670 (6922830528)
+Oct 07 09:04:05 0183dd566013ea98b0d9195a5cb4ee1cbbdcc4ddf44e62fea7e5de270531a336 (6950330551)
+Oct 07 09:04:05 6fe57f07fd41600cf2fb601289ecf30ed2a8ee86236e105bf5a7b8561ee39b59 (7095122966)
+Oct 07 09:04:05 d453ccd1b74ef7aee268cdb72e3d7a7052425462b10ec711f1d4158c90026c4f (7098544063)
+Oct 07 09:04:05 a7a42d92f4114d208a4902d2c2475f012de990e246336cb49fdfd3451f5b96f0 (7159299926)
+Oct 07 09:04:05 8c80e758272d3ee529d95aa0bc640eab7d32d0aee18040ded2f10d1063eeb003 (7164535101)
+Oct 07 09:04:05 0af3a065894489cdb5ae25825c390ae42ce75fee39fddae32fea91ab75cb69a6 (7433160199)
+Oct 07 09:04:05 ea95d19808ec28091b1c9910f82470bcd090ff7b4ec1177278fab20e63471f61 (7626523072)
+Oct 07 09:04:05 45d6122579a7793cde8866157245ac940c854de49c25d3fcf2320d14df2e3801 (8152034261)
+Oct 07 09:04:05 805f93c9775d4cd54b9734d1c262f8e4fd4068f5e91e3b8953f0d3f22c6e374a (8369251875)
+Oct 07 09:04:05 9922f62932c18844e2a3752e1cc924f077738c2ce3b24061a623d77ba01027af (8471243626)
+Oct 07 09:04:05 db0a1f57141c79e936d5a25d1241c5a472524f8ceeaac984555e6c8c993f35f0 (8514178001)
+Oct 07 09:04:05 6f3f9410636e569d3745b02c6631d02548862b9e5769617fda50062c1e0c4296 (8604254822)
+Oct 07 09:04:05 fcee0a09ca73d6068b5a2feadb5c929476a75191f45c97df4e828689e4b5f485 (8781856713)
+Oct 07 09:04:05 a8b66caf394f5b3e2e0764c4fde4733cc24dbcd99580db1946cfbbb603b1ce48 (8911273626)
+Oct 07 09:04:05 e7ae028ff170acced9aa6d10f077aa9d0cb60e27bf837361d8ccbc96bff18af2 (9404739671)
+Oct 07 09:04:05 6386628cdcca697dc38d63b771bdfb3f8c60335a6d338719715d4314c328ff05 (10011540915)
+Oct 07 09:04:05 8a77c0c88c6de3dc0d882b8e23eef0d75b300c1a9238015a314fad17db65e820 (10251836537)
+Oct 07 09:04:05 ac042db835350bc6d287732e578d54038ac16e584a75f9152a92811301352649 (10374282912)
+Oct 07 09:04:05 bb9384dff8bf6758678128df6949c24c0044ad6179463f985c7eda7a5afd613f (10513500676)
+Oct 07 09:04:05 570bd1a8edc1de3cc1011e16e35b11132d682254e16a237e5c8ef24eb88e6874 (11070075123)
+Oct 07 09:04:05 257ce701d1f6b619745bf2f0bdf7f0f87a8c0a5d08b4d268ab586d3cb7f644d7 (11423492346)
+Oct 07 09:04:05 540006907e96d79a0115b18c95a22a90794010b8663681357104e080baf843f7 (11811592657)
+Oct 07 09:04:05 1ffdb8aac17c0af5258119dc693143270cb2c196acda78e1a9f2c75334f4b6bc (11853886610)
+Oct 07 09:04:05 d1d7f0f41833be9d05977fb455fb3f4221476ec6a7a21fea8e385f31e2af94b4 (12054124024)
+Oct 07 09:04:05 f8848bcdc9e266cde3b12b0ff74759c1c8e9db81f9e37de412fa15406cde7b53 (12140049342)
+Oct 07 09:04:05 d48f67c9a5ca16a7eff1c159f0c4d351e05a2bebee47c2d993111305d2e0832e (12237391053)
+Oct 07 09:04:05 368f4cc916bd3ad5baacea5517dc61f372c72b76772404e180141e6c0bef4613 (12241590413)
+Oct 07 09:04:05 be26e9e68483a3448ace230ec93fc58ba6c06ff3587be6c3752b22ff2e0cef5c (12308063068)
+Oct 07 09:04:05 d70e8a1edf209911935991f7c31c45c50538934d7de6ac9b54d7e07d321c91df (12378453836)
+Oct 07 09:04:05 1801001adcc904521177ae04798a58d4f88d273e3c387e112db336d5c341d1aa (12644026830)
+Oct 07 09:04:05 dc9381ce5a257f33d4b791e4c20d6972820ac2d887767c30831e573d3f993df5 (12667664189)
+Oct 07 09:04:05 ed5d52ce7a6ed869849bdd004aacf38860c1c0450023b9de27067c9c279c2fc7 (12693825839)
+Oct 07 09:04:05 3cb2fc3365d2f0ea098796f99c67e5d71c9e1c13394000364182f97349556be2 (13152399918)
+Oct 07 09:04:05 a79ba387deea49f80b39af432cfb9badc1035ea8e1ef1dfe09359b851306e56e (13224320689)
+Oct 07 09:04:05 82b9f8bba2eeb4598cfb19af773eeca5741635bd4bc7438b421a93705982f954 (13566158237)
+Oct 07 09:04:05 a6c61140004cfbc8f149c42706f5ac305f71c7d56c0979d60d7343c40a00fdc0 (13586305611)
+Oct 07 09:04:05 8e4f28308f030de05ea62ac77a275452aeca023cbabbb1915a63b43cef59234d (14087949733)
+Oct 07 09:04:05 2de0ea0dc51ef0ee8a59421595f5b2941d0262c961dd7e4d93354ba6418b971a (14493233972)
+Oct 07 09:04:05 5b3a147b4b3a9aedc313291a28ef8f66082522f9de8c814a7098dc842b13a2a1 (14715256459)
+Oct 07 09:04:05 1dfb509f7c3a05f6941969dccc2f00a24f64817afa27da05378e6807634a01b1 (15360349590)
