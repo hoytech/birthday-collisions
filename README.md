@@ -25,7 +25,7 @@ This is an implementation of a k-dimensional birthday-problem solver, roughly ba
 
 Suppose you are given an arbitrary 32 bytes, which we'll call the "target". Can you find a set of inputs that when hashed with SHA-256 and added together (mod `2**256`) equal this target value?
 
-Normally the target value would be an [incremental hash](https://people.eecs.berkeley.edu/~daw/papers/inchash-cs06.pdf) of some particular set of values, and our objective would be to find a *different* set of values with the same hash. For this reason, we will refer to solving a target value as finding a "collision" (in fact, this is a preimage attack).
+Normally the target value would be an [incremental hash](https://people.eecs.berkeley.edu/~daw/papers/inchash-cs06.pdf) of some particular set of values, and our objective would be to find a *different* set of values with the same hash. For this reason, we will refer to solving a target value as finding a "collision" (in fact, this program implements a preimage attack).
 
 Efficient solutions to this rely on the well-known birthday problem, which trades off space for time. If we keep a collection of all hashes we generate and compare each new hash against this collection, the total number of comparisons performed grows quadratically.
 
@@ -107,6 +107,8 @@ The output:
 
     deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef
 
+Generating this took 28 hours and also required about 1.5 TB of disk space on the same system as above.
+
 
 ### Arbitrary Targets
 
@@ -157,7 +159,7 @@ For example, here are the targets that were used to solve the "dead beef" collis
     deadbeef275808d6000000000000000000000000000000000000000000000000
     8abf06f000000000000000000000000000000000000000000000000000000000
 
-Note that after the first staggered solution, subsequent solutions will be solving multiple partial collisions ending in 0 bytes. Rather than throw out and redo the work that was done to find these partial collisions, `bday` keeps them around while advancing stages. It only needs to redo the stages containing the adjusted target values. Because of this, solving for an arbitrary target does not take substantially more time or space compared to a null collision.
+Note that after the first staggered solution, subsequent solutions will be solving multiple partial collisions ending in 0 bytes. Rather than throw out and redo the work that was done to find these partial collisions, `bday` keeps them around while advancing stages. It only needs to redo the stages containing the adjusted target values.
 
 
 
@@ -220,11 +222,11 @@ The various vectors are not allocated in anonymous memory, but rather in memory 
 
 In most circumstances, RAM will be the full-system bottleneck since it limits the `BATCHSIZE` parameter. `BATCHSIZE * 40` should be approximately 1/3 of memory. The larger this is, the more comparisons can be performed per merge. The parallel sort implementation used by my compiler (g++ 10.2.1, TBB 2020.3-1) seems to not be a fully in-place sort. If it was, batches could instead be parameterised at 1/2 of memory (more investigation is needed here).
 
-Access to `inbox` is random, which is why we need to ensure it can always fit in RAM. However, all access to the `big` and `found` vectors is sequential, so a spinning rust hard disk may actually provide adequate performance. However, I have only tested on NVME SSDs.
+Access to `inbox` is random, which is why we need to ensure it can always fit in RAM. However, all access to the `big` and `found` vectors is sequential, so a spinning rust hard disk may actually provide adequate performance. That said, I have only tested on NVME SSDs.
 
 I have inspected the disassembly of the core loops and many of them use SIMD instructions. The `add` routine does not -- this would be an obvious candidate for optimisation, however at best this can be a modest gain since this part of the pipeline is not a substantial bottleneck.
 
-All steps of the processing within a stage are done using multiple parallel threads except for the merge and collision search. The collision search could be done in parallel by binary searching for suitable thread starting points. The merge could also be parallelised at the expense of larger intermediate RAM usage. Stages themselves could be worked on in parallel, however this would cause RAM and IO contention -- I believe that using full available RAM for the batch sizes is more effective. If you had multiple computers (or NUMA nodes), they could compute partial collisions independently and then send them to a hub to be merged: the `FoundElem` struct would have to be modified to track the source (or redundantly embed the seeds).
+All steps of the processing within a stage are done using multiple parallel threads except for the merge and collision search. The collision search could be done in parallel by binary searching for suitable thread starting points. The merge could also be parallelised at the expense of larger intermediate RAM usage. Stages themselves could be worked on in parallel, however this would cause RAM and IO contention -- I believe that using full available RAM for the batch sizes is more effective. If you had multiple computers (or NUMA nodes), they could compute partial collisions independently and then send them to a hub to be merged: the `FoundElem` struct would have to be modified to track the source computer (or redundantly embed the seeds).
 
 With long-running cryptographic jobs it is best to use ECC memory, since a single bit flip in the page cache could destroy hours or days of work-product.
 
